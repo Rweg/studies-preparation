@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Master's Scholarship Preparation</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Rwandan Master's Funding Tracker</p>
+        <h1>Fully Funded Master's Scholarships</h1>
+        <p class="lede">
+          An interactive preparation board for international master's scholarships,
+          application portals, prerequisites, documents, deadlines, and fit.
+        </p>
+      </div>
+      <a class="button primary" href="#scholarships">View Scholarships</a>
+    </header>
+
+    <main>
+      <section class="summary-grid" aria-label="Scholarship summary">
+        <article>
+          <span id="openCount">0</span>
+          <p>open or programme-specific</p>
+        </article>
+        <article>
+          <span id="highFitCount">0</span>
+          <p>high-fit opportunities</p>
+        </article>
+        <article>
+          <span id="deadlineCount">0</span>
+          <p>urgent / apply now</p>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Strategy</p>
+            <h2>How to Use This Board</h2>
+          </div>
+        </div>
+        <div class="strategy-grid">
+          <div>
+            <h3>1. Apply Immediately</h3>
+            <p>Start with open, high-fit awards. Prioritize portals with fixed deadlines and multi-step applications.</p>
+          </div>
+          <div>
+            <h3>2. Prepare Now</h3>
+            <p>For autumn and winter calls, build essays, references, transcripts, and course shortlists before portals open.</p>
+          </div>
+          <div>
+            <h3>3. Monitor</h3>
+            <p>Closed awards stay visible so you can prepare early and update status when the next cycle opens.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="scholarships" class="panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Search</p>
+            <h2>Scholarship Cards</h2>
+          </div>
+          <div class="filters">
+            <input id="searchInput" type="search" placeholder="Search scholarship, country, field...">
+            <select id="statusFilter" aria-label="Filter by status">
+              <option value="all">All statuses</option>
+              <option value="open">Open / apply now</option>
+              <option value="prepare">Prepare now</option>
+              <option value="closed">Closed / monitor</option>
+            </select>
+            <select id="fitFilter" aria-label="Filter by fit">
+              <option value="all">All fit levels</option>
+              <option value="High">High fit</option>
+              <option value="Medium">Medium fit</option>
+              <option value="Low">Low fit</option>
+            </select>
+          </div>
+        </div>
+        <div id="scholarshipGrid" class="scholarship-grid"></div>
+      </section>
+
+      <section class="panel split">
+        <div>
+          <p class="eyebrow">Documents</p>
+          <h2>Preparation Checklist</h2>
+          <p>
+            These are the files to prepare once and reuse across portals. Keep private
+            documents out of public repositories.
+          </p>
+        </div>
+        <div id="checklist" class="checklist"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Evidence</p>
+            <h2>Official Sources Used</h2>
+          </div>
+        </div>
+        <div id="sourceList" class="source-list"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Last research build: 16 August 2026. Verify each official page before submitting.</p>
+    </footer>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+node_modules/
+dist/
+build/
+.cache/
+__pycache__/
