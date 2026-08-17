@@ -11,7 +11,13 @@
     "fields": "Most full-time eligible UK master's courses",
     "deadline": "6 October 2026, 11:00 UTC",
     "opens": "4 August 2026",
-    "funding": ["Full tuition", "Monthly living allowance", "Travel to/from the UK", "Arrival/departure allowances", "Visa-related support may vary by award guidance"],
+    "funding": [
+      "Full tuition",
+      "Monthly living allowance",
+      "Travel to/from the UK",
+      "Arrival/departure allowances",
+      "Visa-related support may vary by award guidance"
+    ],
     "portal": "https://www.chevening.org/apply/",
     "official": "https://www.chevening.org/scholarship/rwanda/",
     "sourceNote": "Official Rwanda page says applications for 2027-2028 are open until 6 October 2026.",
@@ -23,9 +29,30 @@
       "Return to country of citizenship for at least two years after the award.",
       "Strong leadership, influence, and career-plan essays."
     ],
-    "documents": ["Passport/national ID", "Degree certificate", "Transcripts", "CV", "Essays", "Two references", "Three course choices"],
+    "documents": [
+      "Passport/national ID",
+      "Degree certificate",
+      "Transcripts",
+      "CV",
+      "Essays",
+      "Two references",
+      "Three course choices"
+    ],
     "age": "No explicit age limit found on official eligibility guidance",
-    "english": "UK university requirements apply; English-educated background may help but course rules vary"
+    "english": "UK university requirements apply; English-educated background may help but course rules vary",
+    "languageProficiency": {
+      "summary": "English requirements are set by the chosen UK university/course, not by a universal Chevening test rule.",
+      "tests": "University-specific IELTS/TOEFL/PTE/Duolingo or equivalent where required",
+      "minimums": "course-specific",
+      "waiver": "possible only if the chosen UK university grants one under its own policy",
+      "notes": "You must secure an unconditional offer from at least one Chevening course choice by the offer deadline. Treat your English-educated background as supporting evidence, not an automatic waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "No Chevening scholarship application fee identified in the official online application route; treat as free unless the official portal states otherwise.",
+      "degreeApplication": "varies by UK university/course",
+      "feeWaiver": "university-specific",
+      "notes": "Chevening covers the award if selected, but course application fees before selection depend on each university. Chevening visa guidance says scholars do not need to pay the visa fee or Immigration Health Surcharge when following Chevening visa instructions."
+    }
   },
   {
     "id": "commonwealth-masters",
@@ -39,7 +66,13 @@
     "fields": "CSC development themes; course fit required",
     "deadline": "14 October 2026, 16:00 UK time",
     "opens": "Official pages show 2026-27 applications open",
-    "funding": ["Approved airfare", "Tuition fees", "Monthly stipend", "Warm clothing allowance where applicable", "Thesis/study travel support where applicable"],
+    "funding": [
+      "Approved airfare",
+      "Tuition fees",
+      "Monthly stipend",
+      "Warm clothing allowance where applicable",
+      "Thesis/study travel support where applicable"
+    ],
     "portal": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
     "official": "https://study-uk.britishcouncil.org/scholarships-funding/commonwealth-scholarships",
     "sourceNote": "British Council Study UK page says applications for 2026-27 are open and close at 16:00 on Tuesday 14 October.",
@@ -50,9 +83,29 @@
       "Must be unable to afford UK study without the scholarship.",
       "Must apply through the correct nominating agency route and CSC portal where required."
     ],
-    "documents": ["Passport", "Transcript", "Degree certificate", "Two references", "Admission letter if available", "Development-impact statements"],
+    "documents": [
+      "Passport",
+      "Transcript",
+      "Degree certificate",
+      "Two references",
+      "Admission letter if available",
+      "Development-impact statements"
+    ],
     "age": "No universal age limit stated in the summary pages",
-    "english": "UK university/course English requirements apply"
+    "english": "UK university/course English requirements apply",
+    "languageProficiency": {
+      "summary": "UK university/course English requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "ares-belgium",
@@ -66,7 +119,13 @@
     "fields": "ARES-listed development-oriented programmes",
     "deadline": "18 September 2026, 12:00 Belgian time",
     "opens": "3 August 2026",
-    "funding": ["International travel", "Living allowance", "Tuition/registration costs", "Insurance", "Administrative support according to programme rules"],
+    "funding": [
+      "International travel",
+      "Living allowance",
+      "Tuition/registration costs",
+      "Insurance",
+      "Administrative support according to programme rules"
+    ],
     "portal": "https://www.ares-ac.be/en/scholarships",
     "official": "https://www.ares-ac.be/en/international-training-scholarships-2027-2028",
     "sourceNote": "Official ARES page says the 2027-2028 scholarship call is open, with deadline 18 September 2026.",
@@ -77,9 +136,30 @@
       "Apply through GIRAF platform; account creation/validation may have an earlier deadline.",
       "Programme list is limited; field fit must be checked carefully."
     ],
-    "documents": ["GIRAF profile", "CV", "Diploma", "Transcripts", "Proof of professional experience", "Motivation answers", "References where requested"],
+    "documents": [
+      "GIRAF profile",
+      "CV",
+      "Diploma",
+      "Transcripts",
+      "Proof of professional experience",
+      "Motivation answers",
+      "References where requested"
+    ],
     "age": "Programme-specific; verify in current call",
-    "english": "Depends on programme language; French or English requirements vary"
+    "english": "Depends on programme language; French or English requirements vary",
+    "languageProficiency": {
+      "summary": "Depends on programme language; French or English requirements vary",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "daad-epos",
@@ -93,7 +173,12 @@
     "fields": "Development-related courses listed by DAAD",
     "deadline": "Varies by course; some 2027/2028 deadlines run into October 2026",
     "opens": "Programme-specific",
-    "funding": ["Monthly graduate payment", "Insurance", "Travel allowance unless covered elsewhere", "Possible rent/family allowances under conditions"],
+    "funding": [
+      "Monthly graduate payment",
+      "Insurance",
+      "Travel allowance unless covered elsewhere",
+      "Possible rent/family allowances under conditions"
+    ],
     "portal": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/epos/",
     "official": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50076777",
     "sourceNote": "Official DAAD scholarship database describes EPOS funding and links to the list of courses with 2027/2028 deadlines.",
@@ -104,9 +189,31 @@
       "Development-related motivation and career trajectory.",
       "Apply directly to the selected EPOS course using that course's deadline and documents."
     ],
-    "documents": ["DAAD application form", "CV", "Motivation letter", "Academic transcripts", "Degree certificate", "Employment certificates", "Language proof", "Recommendation letters"],
+    "documents": [
+      "DAAD application form",
+      "CV",
+      "Motivation letter",
+      "Academic transcripts",
+      "Degree certificate",
+      "Employment certificates",
+      "Language proof",
+      "Recommendation letters"
+    ],
     "age": "No simple global age limit; degree-age rule may matter",
-    "english": "IELTS/TOEFL or course-specific proof; some German-taught courses require German"
+    "english": "IELTS/TOEFL or course-specific proof; some German-taught courses require German",
+    "languageProficiency": {
+      "summary": "IELTS/TOEFL or course-specific proof; some German-taught courses require German",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "rhodes-global",
@@ -120,7 +227,13 @@
     "fields": "Most full-time Oxford postgraduate courses",
     "deadline": "Varies by constituency; 2027 applications are open",
     "opens": "Applications for 2027 are open",
-    "funding": ["Oxford course fees", "Annual stipend", "Settling support", "Travel to/from UK", "Visa and health surcharge support per Trust policy"],
+    "funding": [
+      "Oxford course fees",
+      "Annual stipend",
+      "Settling support",
+      "Travel to/from UK",
+      "Visa and health surcharge support per Trust policy"
+    ],
     "portal": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/",
     "official": "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/",
     "sourceNote": "Official Rhodes page says applications for the Rhodes Scholarship 2027 are open.",
@@ -131,9 +244,29 @@
       "Must meet Oxford course admission requirements.",
       "Requires intensive personal statement and references."
     ],
-    "documents": ["Academic transcripts", "CV", "Personal statement", "References", "Passport", "Oxford course preparation"],
+    "documents": [
+      "Academic transcripts",
+      "CV",
+      "Personal statement",
+      "References",
+      "Passport",
+      "Oxford course preparation"
+    ],
     "age": "Constituency-specific; verify before investing heavily",
-    "english": "Oxford course English requirements apply"
+    "english": "Oxford course English requirements apply",
+    "languageProficiency": {
+      "summary": "Oxford course English requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "knight-hennessy",
@@ -147,7 +280,12 @@
     "fields": "Stanford graduate programmes",
     "deadline": "6 October 2026, 1:00 pm Pacific Time; Stanford programme application also required by programme deadline",
     "opens": "2027 cohort application open",
-    "funding": ["Tuition and associated fees", "Living stipend", "Academic expenses stipend", "Travel stipend according to programme policy"],
+    "funding": [
+      "Tuition and associated fees",
+      "Living stipend",
+      "Academic expenses stipend",
+      "Travel stipend according to programme policy"
+    ],
     "portal": "https://knight-hennessy.stanford.edu/admission",
     "official": "https://knight-hennessy.stanford.edu/admission/preparing-your-applications/application-deadlines",
     "sourceNote": "Official admission page says the 2027 cohort application closes 6 October 2026 at 1 pm Pacific Time.",
@@ -158,9 +296,30 @@
       "Strong independence of thought, purposeful leadership, and civic mindset.",
       "Graduate programme application may be due by December 1, 2026 for KHS eligibility even if the programme deadline is later."
     ],
-    "documents": ["KHS application", "Stanford programme application", "Resume", "Transcripts", "Recommendations", "Short answers/essays", "Video statement where required"],
+    "documents": [
+      "KHS application",
+      "Stanford programme application",
+      "Resume",
+      "Transcripts",
+      "Recommendations",
+      "Short answers/essays",
+      "Video statement where required"
+    ],
     "age": "No simple age limit stated in deadline source",
-    "english": "Stanford programme requirements apply"
+    "english": "Stanford programme requirements apply",
+    "languageProficiency": {
+      "summary": "Stanford graduate programme requirements apply; KHS is separate from programme admission.",
+      "tests": "programme-specific",
+      "minimums": "programme-specific",
+      "waiver": "Stanford/programme-specific",
+      "notes": "Check the selected Stanford graduate programme for English-test and transcript requirements."
+    },
+    "fees": {
+      "scholarshipApplication": "No application fee for Knight-Hennessy Scholars.",
+      "degreeApplication": "Stanford Graduate Admissions lists a USD 125 nonrefundable application fee; programme-specific fees may vary.",
+      "feeWaiver": "KHS does not provide degree-application fee waivers; Stanford Graduate Admissions/schools may offer waiver routes if eligible.",
+      "notes": "You must submit both the KHS application and the Stanford graduate programme application."
+    }
   },
   {
     "id": "erasmus-mundus",
@@ -174,7 +333,12 @@
     "fields": "Catalogue programmes across many disciplines",
     "deadline": "Usually October-January by programme",
     "opens": "Most student applications open in autumn",
-    "funding": ["Participation costs", "Monthly allowance", "Travel contribution", "Insurance depending on programme rules"],
+    "funding": [
+      "Participation costs",
+      "Monthly allowance",
+      "Travel contribution",
+      "Insurance depending on programme rules"
+    ],
     "portal": "https://erasmus-plus.ec.europa.eu/resources-and-tools/erasmus-mundus-catalogue",
     "official": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters",
     "sourceNote": "Official Erasmus+ page says most applications are submitted between October and January; each master's website controls its process.",
@@ -185,9 +349,30 @@
       "Strong motivation letter, references, and CV.",
       "Apply on each chosen programme website, not one central universal portal."
     ],
-    "documents": ["Passport", "Degree/transcripts", "CV", "Motivation letter", "References", "English proof", "Programme-specific forms"],
+    "documents": [
+      "Passport",
+      "Degree/transcripts",
+      "CV",
+      "Motivation letter",
+      "References",
+      "English proof",
+      "Programme-specific forms"
+    ],
     "age": "Typically no age limit, but verify by programme",
-    "english": "Programme-specific; English-educated background may support waiver where allowed"
+    "english": "Programme-specific; English-educated background may support waiver where allowed",
+    "languageProficiency": {
+      "summary": "Programme-specific; English-educated background may support waiver where allowed",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "gates-cambridge",
@@ -201,7 +386,13 @@
     "fields": "Most Cambridge postgraduate courses, with exclusions",
     "deadline": "Expected December 2026 or January 2027 for most international applicants, depending on course",
     "opens": "Usually September",
-    "funding": ["University composition fee", "Maintenance allowance", "Airfare", "Visa and immigration health surcharge", "Possible family/academic allowances"],
+    "funding": [
+      "University composition fee",
+      "Maintenance allowance",
+      "Airfare",
+      "Visa and immigration health surcharge",
+      "Possible family/academic allowances"
+    ],
     "portal": "https://www.gatescambridge.org/apply/how-to-apply/",
     "official": "https://www.gatescambridge.org/programme/the-scholarship/",
     "sourceNote": "Official Gates Cambridge pages explain full-cost funding and application through Cambridge's Graduate Application Portal.",
@@ -211,9 +402,29 @@
       "Academic excellence, reasons for course choice, commitment to improving lives, leadership capacity.",
       "Complete funding section in Cambridge graduate application."
     ],
-    "documents": ["Cambridge application", "Transcripts", "References", "Research proposal if required", "Gates statement", "CV where required"],
+    "documents": [
+      "Cambridge application",
+      "Transcripts",
+      "References",
+      "Research proposal if required",
+      "Gates statement",
+      "CV where required"
+    ],
     "age": "No simple age limit found in official overview",
-    "english": "Cambridge course English requirements apply"
+    "english": "Cambridge course English requirements apply",
+    "languageProficiency": {
+      "summary": "Cambridge course English requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "clarendon",
@@ -227,7 +438,10 @@
     "fields": "All subject areas",
     "deadline": "Oxford course December/January funding deadline",
     "opens": "Oxford graduate admissions cycle",
-    "funding": ["Full course fees", "Living costs grant"],
+    "funding": [
+      "Full course fees",
+      "Living costs grant"
+    ],
     "portal": "https://www.ox.ac.uk/admissions/graduate",
     "official": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon",
     "sourceNote": "Official Oxford page says Clarendon is open to all candidates in any subject area who apply by the relevant December or January course deadline.",
@@ -237,9 +451,29 @@
       "No separate scholarship application for most candidates.",
       "Academic excellence and potential are central."
     ],
-    "documents": ["Oxford application", "Transcripts", "References", "Statement of purpose", "Written work/research proposal if required", "English proof if required"],
+    "documents": [
+      "Oxford application",
+      "Transcripts",
+      "References",
+      "Statement of purpose",
+      "Written work/research proposal if required",
+      "English proof if required"
+    ],
     "age": "No age limit stated on summary page",
-    "english": "Oxford course English requirements apply"
+    "english": "Oxford course English requirements apply",
+    "languageProficiency": {
+      "summary": "Oxford course English requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "weidenfeld",
@@ -253,7 +487,11 @@
     "fields": "Eligible course list; leadership and development focus",
     "deadline": "Relevant Oxford December/January course deadline",
     "opens": "Oxford graduate admissions cycle",
-    "funding": ["100% course fees", "Living costs grant", "Leadership programme"],
+    "funding": [
+      "100% course fees",
+      "Living costs grant",
+      "Leadership programme"
+    ],
     "portal": "https://www.ox.ac.uk/admissions/graduate",
     "official": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/fees-funding-and-scholarship-search/weidenfeld-hoffmann-scholarships-and-leadership-programme",
     "sourceNote": "Official Oxford page says applicants must select the scholarship in the Oxford graduate form and apply by the relevant December or January course deadline.",
@@ -264,9 +502,29 @@
       "Show link between course, leadership, and public service/development goals.",
       "Must receive an Oxford offer from the relevant deadline pool."
     ],
-    "documents": ["Oxford application", "Scholarship statement", "Transcripts", "References", "CV", "Course-specific documents"],
+    "documents": [
+      "Oxford application",
+      "Scholarship statement",
+      "Transcripts",
+      "References",
+      "CV",
+      "Course-specific documents"
+    ],
     "age": "No simple age limit stated on official page",
-    "english": "Oxford course English requirements apply"
+    "english": "Oxford course English requirements apply",
+    "languageProficiency": {
+      "summary": "Oxford course English requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "eiffel",
@@ -280,7 +538,13 @@
     "fields": "Science/technology and selected humanities/social sciences",
     "deadline": "Latest official cycle deadline was 8 January 2026 for institutions; next cycle expected later",
     "opens": "Usually around October",
-    "funding": ["Monthly allowance", "International travel", "National transport", "Insurance", "Cultural activities; tuition coverage is not the main Eiffel benefit"],
+    "funding": [
+      "Monthly allowance",
+      "International travel",
+      "National transport",
+      "Insurance",
+      "Cultural activities; tuition coverage is not the main Eiffel benefit"
+    ],
     "portal": "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program",
     "official": "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program",
     "sourceNote": "Official Campus France page lists the 2026 call dates: opened 1 October 2025 and institution deadline 8 January 2026.",
@@ -290,9 +554,28 @@
       "Age limit applies for master's level in Eiffel rules; verify current call.",
       "Field restrictions apply."
     ],
-    "documents": ["French institution application", "CV", "Academic record", "Institution nomination file", "Language proof as programme requires"],
+    "documents": [
+      "French institution application",
+      "CV",
+      "Academic record",
+      "Institution nomination file",
+      "Language proof as programme requires"
+    ],
     "age": "Master's age limit applies; verify current call",
-    "english": "Depends on French programme"
+    "english": "Depends on French programme",
+    "languageProficiency": {
+      "summary": "Depends on French programme",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "mext-rwanda",
@@ -306,7 +589,11 @@
     "fields": "Research fields available in Japan with supervisor fit",
     "deadline": "29 May 2026 for 2027 programme",
     "opens": "Typically April-May via embassy",
-    "funding": ["Tuition", "Monthly allowance", "Travel to/from Japan"],
+    "funding": [
+      "Tuition",
+      "Monthly allowance",
+      "Travel to/from Japan"
+    ],
     "portal": "https://www.rw.emb-japan.go.jp/itpr_en/00_000025.html",
     "official": "https://www.rw.emb-japan.go.jp/itpr_ja/11_000001_00332.html",
     "sourceNote": "Embassy of Japan in Rwanda page lists 23 April-29 May 2026 application window for Research Students.",
@@ -316,9 +603,30 @@
       "Written examination and interview after document screening.",
       "Must meet MEXT academic and nationality rules."
     ],
-    "documents": ["Application forms", "Research plan", "Transcripts", "Degree certificate", "Recommendation letters", "Medical certificate", "Passport/national ID"],
+    "documents": [
+      "Application forms",
+      "Research plan",
+      "Transcripts",
+      "Degree certificate",
+      "Recommendation letters",
+      "Medical certificate",
+      "Passport/national ID"
+    ],
     "age": "MEXT rules vary by category/cycle; verify current guideline",
-    "english": "Japanese or English track depends on university/programme"
+    "english": "Japanese or English track depends on university/programme",
+    "languageProficiency": {
+      "summary": "Japanese or English track depends on university/programme",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "gks-rwanda",
@@ -332,7 +640,14 @@
     "fields": "Participating Korean universities/programmes",
     "deadline": "Embassy Rwanda deadline was 25 February 2026 for 2026 programme",
     "opens": "Usually February for graduate embassy track",
-    "funding": ["Tuition", "Monthly allowance", "Airfare", "Settlement support", "Korean language training", "Insurance"],
+    "funding": [
+      "Tuition",
+      "Monthly allowance",
+      "Airfare",
+      "Settlement support",
+      "Korean language training",
+      "Insurance"
+    ],
     "portal": "https://www.studyinkorea.go.kr/",
     "official": "https://www.mofa.go.kr/rw-en/brd/m_9983/view.do?seq=758868",
     "sourceNote": "Korean Embassy in Rwanda notice states 2026 embassy-track applications were accepted 12-25 February 2026.",
@@ -342,9 +657,31 @@
       "Select eligible universities/programmes.",
       "Prepare notarized/verified academic documents."
     ],
-    "documents": ["GKS forms", "Personal statement", "Study plan", "Recommendations", "Transcripts", "Degree certificate", "Passport/national ID", "Health forms"],
+    "documents": [
+      "GKS forms",
+      "Personal statement",
+      "Study plan",
+      "Recommendations",
+      "Transcripts",
+      "Degree certificate",
+      "Passport/national ID",
+      "Health forms"
+    ],
     "age": "GKS graduate guidelines usually include age rules; verify annual guide",
-    "english": "Korean or English programme requirements; TOPIK can help"
+    "english": "Korean or English programme requirements; TOPIK can help",
+    "languageProficiency": {
+      "summary": "Korean or English programme requirements; TOPIK can help",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "turkiye",
@@ -358,7 +695,15 @@
     "fields": "Wide range through Turkish universities",
     "deadline": "20 February 2026 for main 2026 cycle",
     "opens": "10 January annually for main cycle",
-    "funding": ["University placement", "Tuition", "Monthly stipend", "Accommodation", "Health insurance", "Turkish language course", "Travel"],
+    "funding": [
+      "University placement",
+      "Tuition",
+      "Monthly stipend",
+      "Accommodation",
+      "Health insurance",
+      "Turkish language course",
+      "Travel"
+    ],
     "portal": "https://tbbs.turkiyeburslari.gov.tr/",
     "official": "https://www.turkiyeburslari.gov.tr/calendar",
     "sourceNote": "Official calendar says applications are received between 10 January and 20 February annually.",
@@ -368,9 +713,30 @@
       "Apply through Türkiye Scholarships online system.",
       "Programme and university preferences included in scholarship application."
     ],
-    "documents": ["ID/passport", "Photo", "Exam results if any", "Diploma/transcripts", "Language scores if any", "Research proposal for PhD", "Recommendation letters"],
+    "documents": [
+      "ID/passport",
+      "Photo",
+      "Exam results if any",
+      "Diploma/transcripts",
+      "Language scores if any",
+      "Research proposal for PhD",
+      "Recommendation letters"
+    ],
     "age": "Master's age limit typically applies; verify annual criteria",
-    "english": "Depends on selected programme"
+    "english": "Depends on selected programme",
+    "languageProficiency": {
+      "summary": "Depends on selected programme",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "vlir-uos",
@@ -384,7 +750,13 @@
     "fields": "ICP Connect programme list",
     "deadline": "2026-2027 call closed; next call expected mid-November",
     "opens": "Expected mid-November for 2027-2028",
-    "funding": ["Tuition", "Monthly allowance", "Travel", "Insurance", "Administrative costs according to rules"],
+    "funding": [
+      "Tuition",
+      "Monthly allowance",
+      "Travel",
+      "Insurance",
+      "Administrative costs according to rules"
+    ],
     "portal": "https://www.vliruos.be/get-funded/study-scholarships",
     "official": "https://www.vliruos.be/get-funded/study-scholarships",
     "sourceNote": "Official VLIR-UOS page says the 2026-2027 ICP Connect call is closed and the 2027-2028 call is expected to open in mid-November.",
@@ -394,9 +766,29 @@
       "Professional motivation and development relevance.",
       "Apply through host university/programme route."
     ],
-    "documents": ["Programme application", "CV", "Diploma/transcripts", "Motivation", "References", "Language proof"],
+    "documents": [
+      "Programme application",
+      "CV",
+      "Diploma/transcripts",
+      "Motivation",
+      "References",
+      "Language proof"
+    ],
     "age": "Programme/scholarship rules apply; verify next call",
-    "english": "Programme-specific"
+    "english": "Programme-specific",
+    "languageProficiency": {
+      "summary": "Programme-specific",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "si-global",
@@ -410,7 +802,13 @@
     "fields": "Eligible master's programmes in Sweden",
     "deadline": "25 February 2026 for 2026 cycle",
     "opens": "Usually February after Swedish university application",
-    "funding": ["Full tuition", "Monthly living allowance", "Insurance", "Travel grant for eligible countries", "SI network membership"],
+    "funding": [
+      "Full tuition",
+      "Monthly living allowance",
+      "Insurance",
+      "Travel grant for eligible countries",
+      "SI network membership"
+    ],
     "portal": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
     "official": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
     "sourceNote": "Official SI page lists 9-25 February 2026 as the scholarship portal window for the 2026 cycle.",
@@ -420,9 +818,29 @@
       "Work and leadership experience required.",
       "Separate SI scholarship application during short February window."
     ],
-    "documents": ["University Admissions application", "CV", "Motivation", "Proof of work and leadership", "References", "Passport"],
+    "documents": [
+      "University Admissions application",
+      "CV",
+      "Motivation",
+      "Proof of work and leadership",
+      "References",
+      "Passport"
+    ],
     "age": "No simple age limit on summary; professional criteria matter",
-    "english": "Swedish university admission English requirements apply"
+    "english": "Swedish university admission English requirements apply",
+    "languageProficiency": {
+      "summary": "Swedish university admission English requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "ireland-fellows",
@@ -436,7 +854,12 @@
     "fields": "Eligible Ireland Fellows programme directory",
     "deadline": "Latest Rwanda-related open call appears to have closed in July 2026",
     "opens": "Typically mid-year",
-    "funding": ["Tuition", "Flights", "Accommodation/living support", "Insurance and other supports according to programme rules"],
+    "funding": [
+      "Tuition",
+      "Flights",
+      "Accommodation/living support",
+      "Insurance and other supports according to programme rules"
+    ],
     "portal": "https://www.ireland.ie/en/uganda/kampala/news-and-events/news-archive/ireland-fellows-programme-20272028/",
     "official": "https://irelandfellows.africa/",
     "sourceNote": "Ireland Fellows Africa site currently shows applications closed; Irish Embassy page announced a 2027/2028 open call for Uganda and Rwanda.",
@@ -447,9 +870,29 @@
       "Select eligible Ireland programmes and meet English requirements.",
       "Leadership and SDG/public-service orientation."
     ],
-    "documents": ["Stage 1 application", "CV", "Degree/transcripts", "References", "English proof eventually", "Programme choices"],
+    "documents": [
+      "Stage 1 application",
+      "CV",
+      "Degree/transcripts",
+      "References",
+      "English proof eventually",
+      "Programme choices"
+    ],
     "age": "Programme-specific; verify current guide",
-    "english": "IELTS or equivalent may be required by later stages"
+    "english": "IELTS or equivalent may be required by later stages",
+    "languageProficiency": {
+      "summary": "IELTS or equivalent may be required by later stages",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "mccall-macbain-mcgill",
@@ -463,7 +906,12 @@
     "fields": "Eligible McGill master's and professional programmes",
     "deadline": "19 August 2026, 4:00 PM Eastern Time for applicants outside Canada/US",
     "opens": "1 June 2026",
-    "funding": ["Full tuition and fees", "CAD 2,300/month during academic terms", "Relocation support", "Summer funding options"],
+    "funding": [
+      "Full tuition and fees",
+      "CAD 2,300/month during academic terms",
+      "Relocation support",
+      "Summer funding options"
+    ],
     "portal": "https://apply.mccallmacbainscholars.org/apply/",
     "official": "https://mccallmacbainscholars.org/apply/",
     "sourceNote": "Official McCall MacBain page says international applicants outside Canada/US have an August 19, 2026 deadline for 2027 admission.",
@@ -473,9 +921,29 @@
       "Strong leadership, community engagement, character, and academic record.",
       "Separate McGill admission application is required after the scholarship application path."
     ],
-    "documents": ["Scholarship application", "CV", "Transcripts", "Short essays", "References", "McGill programme preparation"],
+    "documents": [
+      "Scholarship application",
+      "CV",
+      "Transcripts",
+      "Short essays",
+      "References",
+      "McGill programme preparation"
+    ],
     "age": "Conditional: first degree timing and age rule must be checked carefully",
-    "english": "McGill programme English requirements apply"
+    "english": "McGill programme English requirements apply",
+    "languageProficiency": {
+      "summary": "McGill programme English requirements apply.",
+      "tests": "programme-specific",
+      "minimums": "programme-specific",
+      "waiver": "McGill/programme-specific",
+      "notes": "Check the exact McGill graduate programme. The scholarship application is separate from McGill admission."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified; no fee found in the current scholarship application overview",
+      "degreeApplication": "McGill graduate application fee listed by McGill as CAD 143.82 for Summer 2027 graduate applications; amount may vary by term/programme.",
+      "feeWaiver": "unspecified for McGill graduate application; McCall MacBain FAQ says the McGill programme application fee is not covered by the scholarship.",
+      "notes": "Budget for McGill application fees even if the scholarship itself is fully funded."
+    }
   },
   {
     "id": "daad-epos-rem-th-koeln",
@@ -489,7 +957,12 @@
     "fields": "Renewable energy, energy systems, development, engineering and related fields",
     "deadline": "30 September 2026 according to the current TH Köln EPOS application period",
     "opens": "1 August 2026",
-    "funding": ["DAAD graduate stipend", "Insurance", "Travel allowance unless covered elsewhere", "Possible rent/family allowances under DAAD rules"],
+    "funding": [
+      "DAAD graduate stipend",
+      "Insurance",
+      "Travel allowance unless covered elsewhere",
+      "Possible rent/family allowances under DAAD rules"
+    ],
     "portal": "https://www.th-koeln.de/en/spatial-development-and-infrastructure-systems/application-daad-epos-scholarship_104325.php",
     "official": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4520/",
     "sourceNote": "TH Köln's DAAD EPOS application page lists a 1 August to 30 September application period.",
@@ -500,9 +973,30 @@
       "Must satisfy both DAAD EPOS and TH Köln programme admission requirements.",
       "Application must follow TH Köln's EPOS route and required forms."
     ],
-    "documents": ["DAAD forms", "CV", "Motivation letter", "Degree and transcripts", "Employment certificates", "Language proof", "Recommendation letters"],
+    "documents": [
+      "DAAD forms",
+      "CV",
+      "Motivation letter",
+      "Degree and transcripts",
+      "Employment certificates",
+      "Language proof",
+      "Recommendation letters"
+    ],
     "age": "No simple age limit; DAAD degree-age rule may matter",
-    "english": "Programme taught in English; official language certificate requirements must be checked"
+    "english": "Programme taught in English; official language certificate requirements must be checked",
+    "languageProficiency": {
+      "summary": "Programme taught in English; official language certificate requirements must be checked",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "daad-epos-nrm-th-koeln",
@@ -516,7 +1010,12 @@
     "fields": "Natural resources, development, environment, infrastructure, water and related fields",
     "deadline": "30 September 2026 according to the current TH Köln EPOS application period",
     "opens": "1 August 2026",
-    "funding": ["DAAD graduate stipend", "Insurance", "Travel allowance unless covered elsewhere", "Possible rent/family allowances under DAAD rules"],
+    "funding": [
+      "DAAD graduate stipend",
+      "Insurance",
+      "Travel allowance unless covered elsewhere",
+      "Possible rent/family allowances under DAAD rules"
+    ],
     "portal": "https://www.th-koeln.de/en/spatial-development-and-infrastructure-systems/application-daad-epos-scholarship_104325.php",
     "official": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4189/",
     "sourceNote": "DAAD and TH Köln pages identify the NRM programme and course-specific EPOS application route.",
@@ -527,9 +1026,30 @@
       "B2 English requirement appears in DAAD course information.",
       "Must meet programme and DAAD scholarship requirements."
     ],
-    "documents": ["DAAD forms", "CV", "Motivation letter", "Degree and transcripts", "Employment certificates", "Language proof", "Recommendation letters"],
+    "documents": [
+      "DAAD forms",
+      "CV",
+      "Motivation letter",
+      "Degree and transcripts",
+      "Employment certificates",
+      "Language proof",
+      "Recommendation letters"
+    ],
     "age": "No simple age limit; DAAD degree-age rule may matter",
-    "english": "B2 English requirement; official certificate examples include IELTS/TOEFL/Cambridge"
+    "english": "B2 English requirement; official certificate examples include IELTS/TOEFL/Cambridge",
+    "languageProficiency": {
+      "summary": "B2 English requirement; official certificate examples include IELTS/TOEFL/Cambridge",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "daad-epos-mide-htw",
@@ -543,7 +1063,12 @@
     "fields": "Economics, development economics, international economics",
     "deadline": "31 August 2026 with DAAD scholarship",
     "opens": "1 July 2026",
-    "funding": ["DAAD graduate stipend", "Insurance", "Travel allowance unless covered elsewhere", "Possible rent/family allowances under DAAD rules"],
+    "funding": [
+      "DAAD graduate stipend",
+      "Insurance",
+      "Travel allowance unless covered elsewhere",
+      "Possible rent/family allowances under DAAD rules"
+    ],
     "portal": "https://mide.htw-berlin.de/applying/",
     "official": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/3797/",
     "sourceNote": "DAAD programme page lists the MIDE application period with DAAD scholarship as 1 July to 31 August.",
@@ -554,9 +1079,31 @@
       "Apply directly through HTW Berlin/MIDE route.",
       "English-medium prior degree may help only if accepted by current programme rules."
     ],
-    "documents": ["Online MIDE application", "DAAD documents", "CV", "Motivation letter", "Degree and transcripts", "Employment certificates", "Language proof", "References"],
+    "documents": [
+      "Online MIDE application",
+      "DAAD documents",
+      "CV",
+      "Motivation letter",
+      "Degree and transcripts",
+      "Employment certificates",
+      "Language proof",
+      "References"
+    ],
     "age": "No simple age limit; DAAD degree-age rule may matter",
-    "english": "MIDE/DAAD English rules apply; verify whether prior English-medium degree is accepted"
+    "english": "MIDE/DAAD English rules apply; verify whether prior English-medium degree is accepted",
+    "languageProficiency": {
+      "summary": "MIDE/DAAD English rules apply; verify whether prior English-medium degree is accepted",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "sydney-rtp-international",
@@ -570,7 +1117,12 @@
     "fields": "Research fields with supervisor and faculty fit",
     "deadline": "11 September 2026 for Research Periods 1 and 2, 2027",
     "opens": "Open for HDR scholarship rounds",
-    "funding": ["AUD 42,754/year stipend at 2026 rate", "Tuition fee scholarship route", "Relocation allowance", "Thesis allowance"],
+    "funding": [
+      "AUD 42,754/year stipend at 2026 rate",
+      "Tuition fee scholarship route",
+      "Relocation allowance",
+      "Thesis allowance"
+    ],
     "portal": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
     "official": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program.html",
     "sourceNote": "Official University of Sydney RTP international page lists 11 September 2026 deadline and AUD 42,754 p.a. stipend for 2026.",
@@ -580,9 +1132,30 @@
       "Competitive academic record and evidence of research potential.",
       "International tuition support may be through RTP-equivalent university scholarship route."
     ],
-    "documents": ["Research proposal", "Academic CV", "Transcripts", "Degree certificates", "Supervisor contact evidence if required", "References", "English proof"],
+    "documents": [
+      "Research proposal",
+      "Academic CV",
+      "Transcripts",
+      "Degree certificates",
+      "Supervisor contact evidence if required",
+      "References",
+      "English proof"
+    ],
     "age": "No age limit found in official RTP summary",
-    "english": "University of Sydney HDR English requirements apply"
+    "english": "University of Sydney HDR English requirements apply",
+    "languageProficiency": {
+      "summary": "University of Sydney English requirements depend on course, country of origin, and educational background.",
+      "tests": "IELTS/TOEFL/PTE or other accepted evidence where required",
+      "minimums": "course-specific",
+      "waiver": "possible through specific secondary/tertiary qualifications or other accepted evidence under Sydney rules",
+      "notes": "Official Sydney pages say English proof may be met by qualifications, tests, or approved English courses depending on the case."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified / tied to HDR scholarship consideration route",
+      "degreeApplication": "unspecified for HDR route in current tracker; verify in Sydney HDR application before submitting",
+      "feeWaiver": "unspecified",
+      "notes": "Do not assume the general international application fee applies to HDR without checking the current HDR application page."
+    }
   },
   {
     "id": "anu-rtp-research",
@@ -596,7 +1169,11 @@
     "fields": "Research fields with ANU school/supervisor fit",
     "deadline": "31 August 2026 for Round 1 international consideration",
     "opens": "Annual scholarship rounds",
-    "funding": ["RTP stipend", "Tuition-fee scholarship routes for central international scholarships", "Possible travel/removal and thesis allowances under scheme rules"],
+    "funding": [
+      "RTP stipend",
+      "Tuition-fee scholarship routes for central international scholarships",
+      "Possible travel/removal and thesis allowances under scheme rules"
+    ],
     "portal": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
     "official": "https://study.anu.edu.au/scholarships/find-scholarship/anu-university-research-scholarships",
     "sourceNote": "ANU scholarship pages say international students must apply for admission by 31 August for Round 1 consideration.",
@@ -606,9 +1183,30 @@
       "Supporting documents and referee reports must be complete by deadline.",
       "Competitively ranked for central scholarship consideration."
     ],
-    "documents": ["HDR admission application", "Research proposal", "Academic CV", "Transcripts", "Degree certificates", "Referee reports", "English proof"],
+    "documents": [
+      "HDR admission application",
+      "Research proposal",
+      "Academic CV",
+      "Transcripts",
+      "Degree certificates",
+      "Referee reports",
+      "English proof"
+    ],
     "age": "No age limit found in official scholarship summary",
-    "english": "ANU HDR English requirements apply"
+    "english": "ANU HDR English requirements apply",
+    "languageProficiency": {
+      "summary": "ANU HDR English requirements apply.",
+      "tests": "ANU-accepted English tests or approved evidence where required",
+      "minimums": "programme/HDR-specific",
+      "waiver": "ANU policy-specific",
+      "notes": "Check the ANU HDR admission page and selected school requirements."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified / considered through HDR scholarship-admission process",
+      "degreeApplication": "unspecified in current tracker",
+      "feeWaiver": "unspecified",
+      "notes": "Verify any HDR admission/application fee before submission."
+    }
   },
   {
     "id": "griffith-research-scholarships",
@@ -622,7 +1220,12 @@
     "fields": "Research fields offered by Griffith University",
     "deadline": "25 August 2026 for international research scholarship round",
     "opens": "6 July 2026",
-    "funding": ["Griffith postgraduate research stipend", "International fee offset scholarship routes", "RTP fee offset route", "Other allowances depending on award"],
+    "funding": [
+      "Griffith postgraduate research stipend",
+      "International fee offset scholarship routes",
+      "RTP fee offset route",
+      "Other allowances depending on award"
+    ],
     "portal": "https://www.griffith.edu.au/research-study/scholarships",
     "official": "https://www.griffith.edu.au/research-study/scholarships/au-gov-research-training-program",
     "sourceNote": "Official Griffith scholarships page lists international research scholarship closing date 25 August 2026.",
@@ -632,9 +1235,31 @@
       "Must meet HDR admission requirements.",
       "Scholarship and fee-offset awards are competitive."
     ],
-    "documents": ["HDR application", "Research proposal", "Academic CV", "Transcripts", "Degree certificate", "Research evidence", "References", "English proof"],
+    "documents": [
+      "HDR application",
+      "Research proposal",
+      "Academic CV",
+      "Transcripts",
+      "Degree certificate",
+      "Research evidence",
+      "References",
+      "English proof"
+    ],
     "age": "No age limit found in official scholarship summary",
-    "english": "Griffith HDR English requirements apply"
+    "english": "Griffith HDR English requirements apply",
+    "languageProficiency": {
+      "summary": "Griffith HDR English requirements apply.",
+      "tests": "Griffith-accepted English tests or approved evidence where required",
+      "minimums": "HDR/programme-specific",
+      "waiver": "Griffith policy-specific",
+      "notes": "Check HDR admission requirements and scholarship-round instructions."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified / HDR scholarship round process",
+      "degreeApplication": "unspecified in current tracker",
+      "feeWaiver": "unspecified",
+      "notes": "Verify any HDR admission/application fee before submission."
+    }
   },
   {
     "id": "melbourne-graduate-research",
@@ -648,7 +1273,12 @@
     "fields": "Research fields with Melbourne faculty/supervisor fit",
     "deadline": "Course/faculty dependent; scholarship reconsideration deadline commonly 31 October",
     "opens": "Open for automatic consideration",
-    "funding": ["Full fee offset up to two years for master's by research", "AUD 39,500/year 2026 living allowance", "Relocation grant", "OSHC for international students requiring visa"],
+    "funding": [
+      "Full fee offset up to two years for master's by research",
+      "AUD 39,500/year 2026 living allowance",
+      "Relocation grant",
+      "OSHC for international students requiring visa"
+    ],
     "portal": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
     "official": "https://scholarships.unimelb.edu.au/awards/research-training-program-scholarship",
     "sourceNote": "Official Melbourne RTP page says open for automatic consideration with AUD 39,500/year 2026 stipend and full fee offset for research master's.",
@@ -658,9 +1288,30 @@
       "Faculty-specific deadlines and supervisor expectations must be checked.",
       "Automatic consideration may apply for new applicants."
     ],
-    "documents": ["Graduate research application", "Research proposal", "Academic CV", "Transcripts", "Degree certificates", "References", "English proof"],
+    "documents": [
+      "Graduate research application",
+      "Research proposal",
+      "Academic CV",
+      "Transcripts",
+      "Degree certificates",
+      "References",
+      "English proof"
+    ],
     "age": "No age limit found in official scholarship summary",
-    "english": "University of Melbourne graduate research English requirements apply"
+    "english": "University of Melbourne graduate research English requirements apply",
+    "languageProficiency": {
+      "summary": "University of Melbourne graduate research English requirements apply.",
+      "tests": "Melbourne-accepted English tests or approved evidence where required",
+      "minimums": "course/faculty-specific",
+      "waiver": "Melbourne policy-specific",
+      "notes": "Check graduate research course and faculty requirements."
+    },
+    "fees": {
+      "scholarshipApplication": "automatic consideration for eligible applicants where stated; no separate scholarship fee identified",
+      "degreeApplication": "unspecified in current tracker",
+      "feeWaiver": "unspecified",
+      "notes": "Verify graduate research application fees in the current Melbourne application system."
+    }
   },
   {
     "id": "melbourne-human-rights",
@@ -674,7 +1325,12 @@
     "fields": "Human rights research",
     "deadline": "31 October 2026",
     "opens": "1 April 2026",
-    "funding": ["100% fee remission", "AUD 44,500/year 2026 living allowance", "Relocation grant", "OSHC for international students"],
+    "funding": [
+      "100% fee remission",
+      "AUD 44,500/year 2026 living allowance",
+      "Relocation grant",
+      "OSHC for international students"
+    ],
     "portal": "https://scholarships.unimelb.edu.au/awards/human-rights-scholarship",
     "official": "https://scholarships.unimelb.edu.au/awards/human-rights-scholarship",
     "sourceNote": "Official University of Melbourne page says applications are open and close 31 October 2026.",
@@ -684,9 +1340,29 @@
       "Strong research proposal and faculty fit.",
       "International and domestic students are eligible."
     ],
-    "documents": ["Graduate research application", "Human rights research proposal", "Academic CV", "Transcripts", "References", "English proof"],
+    "documents": [
+      "Graduate research application",
+      "Human rights research proposal",
+      "Academic CV",
+      "Transcripts",
+      "References",
+      "English proof"
+    ],
     "age": "No age limit found in official scholarship summary",
-    "english": "University of Melbourne graduate research English requirements apply"
+    "english": "University of Melbourne graduate research English requirements apply",
+    "languageProficiency": {
+      "summary": "University of Melbourne graduate research English requirements apply.",
+      "tests": "Melbourne-accepted English tests or approved evidence where required",
+      "minimums": "course/faculty-specific",
+      "waiver": "Melbourne policy-specific",
+      "notes": "Check graduate research course and faculty requirements."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified; scholarship application route must be checked on official page",
+      "degreeApplication": "unspecified in current tracker",
+      "feeWaiver": "unspecified",
+      "notes": "Verify graduate research application fees and scholarship form requirements before applying."
+    }
   },
   {
     "id": "kaust-fellowship",
@@ -700,7 +1376,13 @@
     "fields": "Science and engineering fields at KAUST",
     "deadline": "2027 admission portal says opening mid-August; exact current-cycle deadline must be checked in portal",
     "opens": "Mid-August 2026 according to KAUST admissions page",
-    "funding": ["Full tuition support", "USD 20,000/year MS living allowance", "Housing", "Medical and dental coverage", "Relocation support"],
+    "funding": [
+      "Full tuition support",
+      "USD 20,000/year MS living allowance",
+      "Housing",
+      "Medical and dental coverage",
+      "Relocation support"
+    ],
     "portal": "https://admissions.kaust.edu.sa/",
     "official": "https://www.kaust.edu.sa/study/applying-to-kaust",
     "sourceNote": "Official KAUST page says 2027 applications open in mid-August and lists full tuition, living allowance, housing, medical/dental coverage, and relocation support.",
@@ -710,9 +1392,31 @@
       "Statement of purpose, CV, transcripts, and recommendations.",
       "English test requirement unless exempt under KAUST rules."
     ],
-    "documents": ["Online application", "CV", "Statement of purpose", "Transcripts", "Degree certificate", "Recommendation letters", "English proof", "Passport"],
+    "documents": [
+      "Online application",
+      "CV",
+      "Statement of purpose",
+      "Transcripts",
+      "Degree certificate",
+      "Recommendation letters",
+      "English proof",
+      "Passport"
+    ],
     "age": "No age limit found in official admissions summary",
-    "english": "KAUST lists TOEFL/IELTS requirements unless exempt by degree country rules"
+    "english": "KAUST lists TOEFL/IELTS requirements unless exempt by degree country rules",
+    "languageProficiency": {
+      "summary": "KAUST requires official evidence of English proficiency unless exempt under KAUST rules.",
+      "tests": "IELTS or TOEFL",
+      "minimums": "KAUST entry-requirements page currently lists IELTS 7 overall with at least 6.5 in each section; verify TOEFL/IELTS thresholds on the current admissions page before submitting.",
+      "waiver": "possible only under KAUST's stated exemption rules",
+      "notes": "KAUST's language of instruction is English; do not assume a Medium of Instruction letter alone is sufficient unless the current admissions guide permits it."
+    },
+    "fees": {
+      "scholarshipApplication": "No separate scholarship application fee; admitted graduate students are considered for KAUST fellowship support.",
+      "degreeApplication": "No cost to submit a KAUST graduate application according to KAUST Admissions FAQ.",
+      "feeWaiver": "not needed for KAUST application fee if the current no-cost rule remains active",
+      "notes": "Confirm fee status in the KAUST application portal before submitting."
+    }
   },
   {
     "id": "kaist-spring-2027",
@@ -726,7 +1430,10 @@
     "fields": "KAIST graduate fields including engineering, science, AI, business and related areas",
     "deadline": "1 September 2026, 5:00 PM KST for online application; recommendation deadline 8 September 2026",
     "opens": "18 August 2026, 10:00 AM KST",
-    "funding": ["KAIST scholarship/funding routes require current-cycle verification", "Funding verification required before labeling fully funded"],
+    "funding": [
+      "KAIST scholarship/funding routes require current-cycle verification",
+      "Funding verification required before labeling fully funded"
+    ],
     "portal": "https://admission.kaist.ac.kr/intl-graduate",
     "official": "https://admission.kaist.ac.kr/intl-graduate",
     "sourceNote": "KAIST international graduate admission notices list Spring 2027 online application period as 18 August to 1 September 2026.",
@@ -736,9 +1443,30 @@
       "Scholarship package must be verified in the current admission guide.",
       "Recommendations due after online application deadline."
     ],
-    "documents": ["Online application", "Statement of purpose", "Transcripts", "Degree certificate", "Recommendations", "English proof where required", "Passport"],
+    "documents": [
+      "Online application",
+      "Statement of purpose",
+      "Transcripts",
+      "Degree certificate",
+      "Recommendations",
+      "English proof where required",
+      "Passport"
+    ],
     "age": "No age limit found in admission notice",
-    "english": "Programme/admission-guide English requirements apply"
+    "english": "Programme/admission-guide English requirements apply",
+    "languageProficiency": {
+      "summary": "Programme/admission-guide English requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "gist-spring-2027",
@@ -752,7 +1480,11 @@
     "fields": "Science, technology, engineering and related GIST graduate fields",
     "deadline": "7 October 2026, 17:00 KST",
     "opens": "7 September 2026, 10:00 KST",
-    "funding": ["Tuition support for international graduate students", "Monthly stipends/allowances under GIST rules", "Health insurance and travel supports require current guide verification"],
+    "funding": [
+      "Tuition support for international graduate students",
+      "Monthly stipends/allowances under GIST rules",
+      "Health insurance and travel supports require current guide verification"
+    ],
     "portal": "https://www.gist.ac.kr/iadm/",
     "official": "https://www.gist.ac.kr/iadm/html/sub02/020101.html",
     "sourceNote": "Official GIST schedule page lists Spring 2027 application period as 7 September to 7 October 2026.",
@@ -762,9 +1494,31 @@
       "Strong STEM/research preparation.",
       "Scholarship details should be checked against the official current admissions guide."
     ],
-    "documents": ["Online application", "Study plan", "CV", "Transcripts", "Degree certificate", "Recommendation letters", "English proof", "Passport"],
+    "documents": [
+      "Online application",
+      "Study plan",
+      "CV",
+      "Transcripts",
+      "Degree certificate",
+      "Recommendation letters",
+      "English proof",
+      "Passport"
+    ],
     "age": "No age limit found in official schedule",
-    "english": "GIST admissions English requirements apply"
+    "english": "GIST admissions English requirements apply",
+    "languageProficiency": {
+      "summary": "GIST admissions English requirements apply.",
+      "tests": "official English proof as required by the current admissions guide",
+      "minimums": "programme/admissions-guide specific",
+      "waiver": "admissions-guide specific",
+      "notes": "Check the current Spring 2027 admissions guide before deciding whether English-medium education is enough."
+    },
+    "fees": {
+      "scholarshipApplication": "No separate scholarship application is typically required for GIST international graduate scholarship consideration; verify current guide.",
+      "degreeApplication": "mandatory application fee reported in the current audit; exact current amount requires admissions-guide verification",
+      "feeWaiver": "matriculation-fee exemption may apply for some students; verify current GIST guide",
+      "notes": "Official GIST pages state a non-refundable KRW 680,000 matriculation fee is charged at enrollment, with possible exemptions."
+    }
   },
   {
     "id": "mastercard-cambridge",
@@ -778,7 +1532,13 @@
     "fields": "Eligible Cambridge master's programmes, with programme exclusions",
     "deadline": "Cycle reopens in September 2026; deadline depends on Cambridge course and scholarship call",
     "opens": "September 2026",
-    "funding": ["Course fee", "Monthly living allowance", "Return flight", "Visa and immigration health surcharge support", "Laptop and wraparound support according to programme rules"],
+    "funding": [
+      "Course fee",
+      "Monthly living allowance",
+      "Return flight",
+      "Visa and immigration health surcharge support",
+      "Laptop and wraparound support according to programme rules"
+    ],
     "portal": "https://www.mastercardfoundation.fund.cam.ac.uk/apply",
     "official": "https://www.mastercardfoundation.fund.cam.ac.uk/",
     "sourceNote": "Official Cambridge Mastercard Foundation page says applications open in September for courses starting the following October.",
@@ -788,9 +1548,30 @@
       "Leadership and commitment to climate resilience/sustainability themes may matter under current programme focus.",
       "Must follow both Cambridge admission and Mastercard Foundation scholarship instructions."
     ],
-    "documents": ["Cambridge application", "Scholarship questions", "CV", "Transcripts", "References", "English proof", "Course-specific documents"],
+    "documents": [
+      "Cambridge application",
+      "Scholarship questions",
+      "CV",
+      "Transcripts",
+      "References",
+      "English proof",
+      "Course-specific documents"
+    ],
     "age": "Current age rules must be verified when call opens",
-    "english": "Cambridge course English requirements apply"
+    "english": "Cambridge course English requirements apply",
+    "languageProficiency": {
+      "summary": "Cambridge course English requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "mastercard-ubc",
@@ -804,7 +1585,14 @@
     "fields": "Eligible programmes such as Data Science, Food Science, Forestry, Geomatics, Sustainable Forest Management and related list",
     "deadline": "Application windows begin from 31 August 2026; programme deadlines vary",
     "opens": "31 August 2026",
-    "funding": ["Tuition and books", "Flights and immigration support", "Room and board", "Living stipend", "Health insurance", "Career and wraparound support"],
+    "funding": [
+      "Tuition and books",
+      "Flights and immigration support",
+      "Room and board",
+      "Living stipend",
+      "Health insurance",
+      "Career and wraparound support"
+    ],
     "portal": "https://mastercardfdn.scholars.ubc.ca/graduate-admissions/graduate-admissions-2/",
     "official": "https://mastercardfdn.scholars.ubc.ca/",
     "sourceNote": "Official UBC Mastercard Foundation graduate admissions page says Winter 2027 applications open from 31 August 2026.",
@@ -815,9 +1603,30 @@
       "Apply to one of the eligible UBC master's programmes.",
       "Meet the selected programme's academic requirements."
     ],
-    "documents": ["UBC programme application", "Scholarship forms", "CV", "Transcripts", "References", "Leadership/community evidence", "English proof"],
+    "documents": [
+      "UBC programme application",
+      "Scholarship forms",
+      "CV",
+      "Transcripts",
+      "References",
+      "Leadership/community evidence",
+      "English proof"
+    ],
     "age": "35 years old or younger at time of application according to current UBC page",
-    "english": "UBC programme English requirements apply"
+    "english": "UBC programme English requirements apply",
+    "languageProficiency": {
+      "summary": "UBC programme English requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "yenching-academy",
@@ -831,7 +1640,13 @@
     "fields": "China Studies interdisciplinary programme",
     "deadline": "2027 recruitment information expected around September; deadline usually later in the cycle",
     "opens": "Around September 2026",
-    "funding": ["Tuition", "Accommodation", "Monthly stipend", "One round-trip airfare", "Field-study costs according to programme rules"],
+    "funding": [
+      "Tuition",
+      "Accommodation",
+      "Monthly stipend",
+      "One round-trip airfare",
+      "Field-study costs according to programme rules"
+    ],
     "portal": "https://apply.yca.pku.edu.cn/",
     "official": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
     "sourceNote": "Official Yenching Academy admissions page says 2027 cohort recruitment information will be available around September.",
@@ -841,9 +1656,31 @@
       "Partner-university candidates may need internal pre-selection.",
       "Interdisciplinary statement of research interest is central."
     ],
-    "documents": ["Online application", "Personal statement", "Research interest statement", "CV", "Transcripts", "Degree certificate", "Recommendations", "English proof"],
+    "documents": [
+      "Online application",
+      "Personal statement",
+      "Research interest statement",
+      "CV",
+      "Transcripts",
+      "Degree certificate",
+      "Recommendations",
+      "English proof"
+    ],
     "age": "Verify current 2027 guide when published",
-    "english": "Yenching Academy English requirements apply"
+    "english": "Yenching Academy English requirements apply",
+    "languageProficiency": {
+      "summary": "Yenching Academy English requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "eac-scholarship-phase-ii",
@@ -857,7 +1694,13 @@
     "fields": "Priority fields expected to include engineering, technology, informatics, science and regional development areas",
     "deadline": "Applications not yet open; official timelines TBA",
     "opens": "TBA",
-    "funding": ["Tuition fees", "Monthly stipend", "One return air ticket", "Medical insurance", "Research allowance"],
+    "funding": [
+      "Tuition fees",
+      "Monthly stipend",
+      "One return air ticket",
+      "Medical insurance",
+      "Research allowance"
+    ],
     "portal": "https://iucea.org/eacsp2/",
     "official": "https://iucea.org/eacsp2/",
     "sourceNote": "Official IUCEA Phase II page says the announcement is for awareness only and applications are not yet open.",
@@ -868,9 +1711,30 @@
       "Bachelor's degree meeting grade requirements.",
       "Final call details must be verified when applications open."
     ],
-    "documents": ["Passport/national ID", "Degree certificate", "Transcripts", "CV", "Admission/application documents", "References", "Motivation statement"],
+    "documents": [
+      "Passport/national ID",
+      "Degree certificate",
+      "Transcripts",
+      "CV",
+      "Admission/application documents",
+      "References",
+      "Motivation statement"
+    ],
     "age": "Expected below 35 years; verify final student call",
-    "english": "Host university/programme language requirements apply"
+    "english": "Host university/programme language requirements apply",
+    "languageProficiency": {
+      "summary": "Host university/programme language requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "mastercard-mcgill",
@@ -884,7 +1748,11 @@
     "fields": "Nutrition, public health, public policy, sustainable agriculture and eligible McGill fields",
     "deadline": "21 August 2026, 4:00 PM EST for invited applicants",
     "opens": "3 August 2026 for invited applicants",
-    "funding": ["Comprehensive Mastercard Foundation support", "Tuition and living support", "Wraparound leadership/career support"],
+    "funding": [
+      "Comprehensive Mastercard Foundation support",
+      "Tuition and living support",
+      "Wraparound leadership/career support"
+    ],
     "portal": "https://www.mcgill.ca/mastercardfdn-scholars/apply",
     "official": "https://www.mcgill.ca/mastercardfdn-scholars/",
     "sourceNote": "Official McGill page says applicants must register for and attend an information session to receive the scholarship application link; current information sessions have concluded.",
@@ -894,9 +1762,30 @@
       "Only proceed if you attended the official session and received the application route.",
       "Programme fit must match McGill Mastercard eligible areas."
     ],
-    "documents": ["Invitation/application link", "McGill pre-screening materials", "CV", "Transcripts", "References", "Essays", "Proof of eligibility"],
+    "documents": [
+      "Invitation/application link",
+      "McGill pre-screening materials",
+      "CV",
+      "Transcripts",
+      "References",
+      "Essays",
+      "Proof of eligibility"
+    ],
     "age": "Verify current McGill Mastercard eligibility page",
-    "english": "McGill programme English requirements apply"
+    "english": "McGill programme English requirements apply",
+    "languageProficiency": {
+      "summary": "McGill programme English requirements apply.",
+      "tests": "programme-specific",
+      "minimums": "programme-specific",
+      "waiver": "McGill/programme-specific",
+      "notes": "Only actionable if the mandatory McGill Mastercard information-session prerequisite was completed."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified / invitation-based after required information session",
+      "degreeApplication": "McGill graduate application fee listed by McGill as CAD 143.82 for Summer 2027 graduate applications; amount may vary by term/programme.",
+      "feeWaiver": "unspecified",
+      "notes": "Confirm whether the partner programme covers or reimburses any admission fee in the invited application instructions."
+    }
   },
   {
     "id": "afdb-jads-apu",
@@ -910,7 +1799,11 @@
     "fields": "Development, energy and approved JADS/APU graduate fields",
     "deadline": "15 September 2026 for April 2027 APU enrollment; later deadlines for September 2027 route",
     "opens": "Open according to APU external scholarship page",
-    "funding": ["Tuition and approved academic costs", "Living stipend", "Travel and other JADS supports according to programme rules"],
+    "funding": [
+      "Tuition and approved academic costs",
+      "Living stipend",
+      "Travel and other JADS supports according to programme rules"
+    ],
     "portal": "https://admissions.apu.ac.jp/graduate/how_to_apply/external_scholarship/AfDB_JADS/",
     "official": "https://www.afdb.org/en/about-us/careers/japan-africa-dream-scholarship-jads-program",
     "sourceNote": "APU official external scholarship page says AfDB-JADS accepts applications for April and September 2027 enrollment, with April 2027 APU deadline 15 September 2026.",
@@ -920,9 +1813,31 @@
       "Must request scholarship consideration within the APU online application.",
       "Final eligibility must be checked against AfDB/JADS and university route rules."
     ],
-    "documents": ["APU graduate application", "Scholarship request", "CV", "Transcripts", "Degree certificate", "Essays", "References", "English proof"],
+    "documents": [
+      "APU graduate application",
+      "Scholarship request",
+      "CV",
+      "Transcripts",
+      "Degree certificate",
+      "Essays",
+      "References",
+      "English proof"
+    ],
     "age": "Age rules may apply under JADS; verify current programme guidance",
-    "english": "APU graduate English requirements apply"
+    "english": "APU graduate English requirements apply",
+    "languageProficiency": {
+      "summary": "APU graduate English requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "mandela-rhodes",
@@ -936,7 +1851,15 @@
     "fields": "South African university postgraduate study",
     "deadline": "2027 intake applications are closed; next cycle opens 9 March 2027",
     "opens": "9 March 2027 for 2028 intake",
-    "funding": ["Tuition", "Accommodation", "Meals", "Book allowance", "Travel allowance", "Personal allowance", "Leadership programme"],
+    "funding": [
+      "Tuition",
+      "Accommodation",
+      "Meals",
+      "Book allowance",
+      "Travel allowance",
+      "Personal allowance",
+      "Leadership programme"
+    ],
     "portal": "https://www.mandelarhodes.org/scholarship/apply/",
     "official": "https://www.mandelarhodes.org/scholarship/apply/",
     "sourceNote": "Official Mandela Rhodes page says applications for 2027 are closed and applications for 2028 open 9 March 2027.",
@@ -946,9 +1869,29 @@
       "Leadership, reconciliation, education, entrepreneurship focus.",
       "Admission to South African postgraduate programme required."
     ],
-    "documents": ["Application form", "Essays", "CV", "Transcripts", "References", "South African university admission preparation"],
+    "documents": [
+      "Application form",
+      "Essays",
+      "CV",
+      "Transcripts",
+      "References",
+      "South African university admission preparation"
+    ],
     "age": "Likely age-limited; current fit is low at age 31 unless rules change",
-    "english": "South African university requirements apply"
+    "english": "South African university requirements apply",
+    "languageProficiency": {
+      "summary": "South African university requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   },
   {
     "id": "aims-rwanda-stale",
@@ -962,7 +1905,9 @@
     "fields": "Mathematical sciences, data science, science and engineering with significant mathematical component",
     "deadline": "Official Rwanda page found with stale 21 March 2025 deadline; current 2026/2027 status unclear",
     "opens": "Unclear",
-    "funding": ["AIMS funding can be substantial, but current Rwanda-cycle coverage must be verified"],
+    "funding": [
+      "AIMS funding can be substantial, but current Rwanda-cycle coverage must be verified"
+    ],
     "portal": "https://aims.ac.rw/apply-for-the-aims-prestigious-masters-in-mathematical-sciences-application/",
     "official": "https://aims.ac.rw/",
     "sourceNote": "Official AIMS Rwanda page contains application language but displays an old 21 March 2025 deadline, so it is flagged as source conflict/stale.",
@@ -971,8 +1916,28 @@
       "Strong mathematics, leadership and community service record.",
       "Do not treat as open until AIMS publishes a current-cycle deadline."
     ],
-    "documents": ["Current-cycle application form if reopened", "CV", "Transcripts", "Degree certificate", "References", "Motivation statement"],
+    "documents": [
+      "Current-cycle application form if reopened",
+      "CV",
+      "Transcripts",
+      "Degree certificate",
+      "References",
+      "Motivation statement"
+    ],
     "age": "Verify current call",
-    "english": "AIMS programme language requirements apply"
+    "english": "AIMS programme language requirements apply",
+    "languageProficiency": {
+      "summary": "AIMS programme language requirements apply",
+      "tests": "programme-specific or unspecified",
+      "minimums": "unspecified",
+      "waiver": "unspecified",
+      "notes": "Verify on the official scholarship and university/programme admissions page before applying. English-medium education should not be assumed to guarantee a waiver."
+    },
+    "fees": {
+      "scholarshipApplication": "unspecified",
+      "degreeApplication": "unspecified",
+      "feeWaiver": "unspecified",
+      "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
+    }
   }
 ]

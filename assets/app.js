@@ -47,7 +47,33 @@ function list(items) {
   return `<ul>${items.map((item) => `<li>${item}</li>`).join("")}</ul>`;
 }
 
+function fieldRows(rows) {
+  return `
+    <div class="detail-table">
+      ${rows.map(([label, value]) => `
+        <div>
+          <strong>${label}</strong>
+          <span>${value || "unspecified"}</span>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
 function card(item) {
+  const language = item.languageProficiency || {
+    summary: item.english || "unspecified",
+    tests: "unspecified",
+    minimums: "unspecified",
+    waiver: "unspecified",
+    notes: "unspecified"
+  };
+  const fees = item.fees || {
+    scholarshipApplication: "unspecified",
+    degreeApplication: "unspecified",
+    feeWaiver: "unspecified",
+    notes: "unspecified"
+  };
   return `
     <article class="scholarship-card" data-status="${statusClass(item.status)}" data-fit="${item.fit}">
       <div class="card-top">
@@ -82,6 +108,25 @@ function card(item) {
       <details>
         <summary>Documents</summary>
         ${list(item.documents)}
+      </details>
+      <details>
+        <summary>Language Proficiency</summary>
+        ${fieldRows([
+          ["Summary", language.summary],
+          ["Tests", language.tests],
+          ["Minimums", language.minimums],
+          ["Waiver", language.waiver],
+          ["Notes", language.notes]
+        ])}
+      </details>
+      <details>
+        <summary>Application Fees & Waivers</summary>
+        ${fieldRows([
+          ["Scholarship application", fees.scholarshipApplication],
+          ["Degree application", fees.degreeApplication],
+          ["Fee waiver", fees.feeWaiver],
+          ["Notes", fees.notes]
+        ])}
       </details>
       <details>
         <summary>Age and English Notes</summary>
