@@ -11,7 +11,7 @@ Live site after GitHub Pages deployment:
 - Scholarship cards with official application links
 - Collapsible prerequisites per scholarship
 - Funding coverage and document requirements
-- Language-proficiency requirements, waiver notes, and test notes
+- Language-proficiency requirements, test types to prepare, waiver notes, and Medium of Instruction guidance
 - Scholarship application fees, degree application fees, and waiver notes
 - Search and filters by status and fit
 - Private preparation checklist stored in browser local storage

@@ -10,11 +10,19 @@ Every record should include `languageProficiency`.
   "tests": "IELTS / TOEFL / PTE / Duolingo / other / unspecified",
   "minimums": "Exact official thresholds or unspecified",
   "waiver": "Available / conditional / not stated / unspecified",
+  "prepare": "Concrete preparation guidance for the applicant",
   "notes": "Important caveats"
 }
 ```
 
 Rule: do not assume that a prior English-medium degree automatically creates an IELTS/TOEFL waiver. Record the official scholarship or university rule.
+
+Preparation should distinguish:
+
+- standardized English tests: IELTS, TOEFL, PTE, Duolingo, Cambridge English, or programme-specific alternatives
+- proof of taught language: Medium of Instruction letter, transcript language note, or university letter
+- local-language proof: French, German, Korean, Japanese, Chinese or Turkish proof where a programme is not English-taught
+- waiver evidence: only valid if the official scholarship or university policy permits it
 
 ## Application Fees
 

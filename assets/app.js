@@ -8,7 +8,9 @@ const checklistItems = [
   "Career goals statement",
   "Leadership and impact examples",
   "Evidence that prior degree was taught in English",
+  "Medium of Instruction letter from bachelor's university",
   "English test results, if available",
+  "IELTS/TOEFL/PTE/Duolingo plan for programmes that do not waive testing",
   "Professional certifications",
   "Academic grading-scale explanation"
 ];
@@ -116,6 +118,7 @@ function card(item) {
           ["Tests", language.tests],
           ["Minimums", language.minimums],
           ["Waiver", language.waiver],
+          ["Prepare", language.prepare],
           ["Notes", language.notes]
         ])}
       </details>
