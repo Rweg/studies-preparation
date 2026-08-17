@@ -13,7 +13,7 @@
         <h1>Fully Funded Master's Scholarships</h1>
         <p class="lede">
           An interactive preparation board for international master's scholarships,
-          application portals, prerequisites, documents, deadlines, and fit.
+          application portals, prerequisites, documents, deadlines, fit, and coverage gaps.
         </p>
       </div>
       <a class="button primary" href="#scholarships">View Scholarships</a>
@@ -23,7 +23,7 @@
       <section class="summary-grid" aria-label="Scholarship summary">
         <article>
           <span id="openCount">0</span>
-          <p>open or programme-specific</p>
+          <p>open or conditional</p>
         </article>
         <article>
           <span id="highFitCount">0</span>
@@ -31,7 +31,7 @@
         </article>
         <article>
           <span id="deadlineCount">0</span>
-          <p>urgent / apply now</p>
+          <p>critical or urgent</p>
         </article>
       </section>
 
@@ -39,7 +39,7 @@
         <div class="panel-heading">
           <div>
             <p class="eyebrow">Strategy</p>
-            <h2>How to Use This Board</h2>
+          <h2>How to Use This Board</h2>
           </div>
         </div>
         <div class="strategy-grid">
@@ -53,7 +53,7 @@
           </div>
           <div>
             <h3>3. Monitor</h3>
-            <p>Closed awards stay visible so you can prepare early and update status when the next cycle opens.</p>
+            <p>Closed, stale, and monitor records stay visible so you can avoid false positives and prepare early.</p>
           </div>
         </div>
       </section>
@@ -68,9 +68,11 @@
             <input id="searchInput" type="search" placeholder="Search scholarship, country, field...">
             <select id="statusFilter" aria-label="Filter by status">
               <option value="all">All statuses</option>
-              <option value="open">Open / apply now</option>
-              <option value="prepare">Prepare now</option>
-              <option value="closed">Closed / monitor</option>
+              <option value="open">Open / urgent / conditional</option>
+              <option value="prepare">Opening soon</option>
+              <option value="monitor">Monitor</option>
+              <option value="conflict">Source conflict</option>
+              <option value="closed">Closed</option>
             </select>
             <select id="fitFilter" aria-label="Filter by fit">
               <option value="all">All fit levels</option>

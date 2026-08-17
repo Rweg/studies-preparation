@@ -26,14 +26,20 @@ const deadlineCount = document.querySelector("#deadlineCount");
 let scholarships = [];
 
 function statusClass(status) {
+  if (status.includes("Critical")) return "critical";
+  if (status.includes("Urgent")) return "urgent";
+  if (status.includes("Conditional")) return "conditional";
   if (status.includes("Open")) return "open";
   if (status.includes("Opening")) return "prepare";
+  if (status.includes("Source conflict")) return "conflict";
+  if (status.includes("Monitor")) return "monitor";
   return "closed";
 }
 
 function priorityClass(priority) {
   if (priority.includes("Apply") || priority.includes("Check")) return "open";
   if (priority.includes("Prepare")) return "prepare";
+  if (priority.includes("Monitor")) return "monitor";
   return "closed";
 }
 
@@ -94,7 +100,8 @@ function renderCards() {
 
   const filtered = scholarships.filter((item) => {
     const haystack = `${item.name} ${item.sponsor} ${item.country} ${item.fields} ${item.status} ${item.priority}`.toLowerCase();
-    const statusOk = status === "all" || statusClass(item.status) === status;
+    const openStates = ["critical", "urgent", "conditional", "open"];
+    const statusOk = status === "all" || (status === "open" ? openStates.includes(statusClass(item.status)) : statusClass(item.status) === status);
     const fitOk = fit === "all" || item.fit === fit;
     return haystack.includes(search) && statusOk && fitOk;
   });
@@ -103,9 +110,9 @@ function renderCards() {
 }
 
 function renderStats() {
-  openCount.textContent = scholarships.filter((item) => statusClass(item.status) === "open").length;
+  openCount.textContent = scholarships.filter((item) => ["critical", "urgent", "conditional", "open"].includes(statusClass(item.status))).length;
   highFitCount.textContent = scholarships.filter((item) => item.fit === "High").length;
-  deadlineCount.textContent = scholarships.filter((item) => item.priority.includes("Apply") || item.priority.includes("Check")).length;
+  deadlineCount.textContent = scholarships.filter((item) => ["critical", "urgent"].includes(statusClass(item.status))).length;
 }
 
 function renderChecklist() {

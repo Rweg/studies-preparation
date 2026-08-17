@@ -226,9 +226,34 @@ select {
   color: var(--green);
 }
 
+.badge.critical {
+  background: color-mix(in srgb, var(--red) 18%, transparent);
+  color: var(--red);
+}
+
+.badge.urgent {
+  background: color-mix(in srgb, var(--amber) 18%, transparent);
+  color: var(--amber);
+}
+
+.badge.conditional {
+  background: color-mix(in srgb, var(--blue) 16%, transparent);
+  color: var(--blue);
+}
+
 .badge.prepare {
   background: color-mix(in srgb, var(--blue) 15%, transparent);
   color: var(--blue);
+}
+
+.badge.monitor {
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  color: var(--accent);
+}
+
+.badge.conflict {
+  background: color-mix(in srgb, var(--amber) 12%, transparent);
+  color: var(--amber);
 }
 
 .badge.closed {
