@@ -20,7 +20,7 @@ Live site after GitHub Pages deployment:
 
 ## Research Boundary
 
-The dataset focuses on major fully funded international master's scholarships relevant to a Rwandan/African applicant profile, plus broader university and research-degree routes reviewed during the 31 August 2026 audit. Scholarship status changes quickly. Always verify the official page before submitting.
+The dataset focuses on major fully funded international master's scholarships relevant to a Rwandan/African applicant profile, plus broader university and research-degree routes reviewed during the 2 September 2026 audit. Scholarship status changes quickly. Always verify the official page before submitting.
 
 ## Update Data
 
