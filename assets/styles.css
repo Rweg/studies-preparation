@@ -232,6 +232,19 @@ main {
   margin-top: 0;
 }
 
+.pathway-grid h4 {
+  margin-bottom: 6px;
+}
+
+.pathway-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 16px;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
 .strategy-grid > div {
   padding: 18px;
   border: 1px solid var(--line);

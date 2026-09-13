@@ -233,6 +233,14 @@ function renderKaustPathway() {
     <p class="pathway-lede">${kaust.fit}</p>
     <div class="pathway-grid">
       <div>
+        <h3>Choose one programme</h3>
+        ${list(kaust.programmeDecision)}
+      </div>
+      <div>
+        <h3>Know the MS structure</h3>
+        ${list(kaust.degreeStructure)}
+      </div>
+      <div>
         <h3>Finish the application</h3>
         ${list(kaust.nextSteps)}
       </div>
@@ -249,6 +257,14 @@ function renderKaustPathway() {
         ${list(kaust.funding)}
         ${list(kaust.fees)}
       </div>
+      <div>
+        <h3>After submission</h3>
+        <p>${kaust.afterSubmission}</p>
+        <h4>Admissions stages</h4>
+        ${list(kaust.admissionStages)}
+        <h4>Current timeline</h4>
+        ${list(kaust.timeline)}
+      </div>
     </div>
     <details>
       <summary>English requirement</summary>
@@ -264,6 +280,9 @@ function renderKaustPathway() {
       <a class="button" href="https://admissions.kaust.edu.sa/fees-funding" target="_blank" rel="noreferrer">Fees & funding</a>
       <a class="button" href="https://admissions.kaust.edu.sa/info-and-contact/faqs" target="_blank" rel="noreferrer">KAUST FAQs</a>
       <a class="button" href="https://admissions.kaust.edu.sa/how-to-apply/entry-requirements" target="_blank" rel="noreferrer">Entry requirements</a>
+    </div>
+    <div class="pathway-links">
+      ${kaust.officialLinks.map((link) => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label}</a>`).join("")}
     </div>
   `;
 }

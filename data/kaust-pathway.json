@@ -2,6 +2,29 @@
   "status": "Application started",
   "route": "Master's degree route",
   "fit": "Engineering, intelligent systems, AI, data, and applied research directions",
+  "programmeDecision": [
+    "KAUST currently lists 17 STEM disciplines. For your documented background, compare Electrical and Computer Engineering, Computer Science, and Applied Mathematics and Computational Science first; add another discipline only if the programme page matches your evidence.",
+    "KAUST says you can apply to only one academic programme in a year. Select one exact programme and make the statement, evidence, and research direction consistent with it.",
+    "The MS route is the direct master's option. The integrated MS/PhD route can begin after an undergraduate degree, while the standalone PhD route requires a relevant master's degree."
+  ],
+  "degreeStructure": [
+    "KAUST describes the MS as 1.5 years without a thesis or 2 years with a thesis.",
+    "The degree is 36 credits: core curriculum, electives, and research or capstone work.",
+    "The thesis option requires an application by the eighth week of the second semester; the non-thesis option still includes directed research.",
+    "Students must satisfactorily complete at least one Winter Enrichment Program."
+  ],
+  "admissionStages": [
+    "Submit the application before the applicable deadline.",
+    "Admissions checks whether the documents are complete.",
+    "A faculty review committee evaluates and ranks eligible applications.",
+    "Shortlisted applicants may receive an academic interview or test.",
+    "KAUST sends the final outcome by email."
+  ],
+  "timeline": [
+    "The current official timeline lists Spring 2027 as PhD-only, with a Round 1 deadline of 27 September 2026.",
+    "The current official timeline lists Fall 2027 as open to MS, MS/PhD, and PhD applicants; applications open 28 September 2026 and close 3 January 2027.",
+    "These dates are marked tentative by KAUST. Confirm the intake and deadline shown inside your existing application before submitting."
+  ],
   "nextSteps": [
     "Open the existing application and confirm the exact master's programme and intended research direction.",
     "Before submitting, review every field carefully; KAUST says an application cannot normally be changed after submission unless Admissions requests more information.",
@@ -37,5 +60,24 @@
     "A valid official GRE or PGAT score is optional; KAUST says an eligible score uploaded at submission can receive an application fee waiver if a fee applies."
   ],
   "language": "KAUST requires official English evidence unless its specific exemption rules apply. The current entry-requirements page lists IELTS, TOEFL iBT, PTE Academic, and Cambridge options, and does not accept a Medium of Instruction certificate alone.",
+  "afterSubmission": "If the application has already been submitted, use the portal to monitor referee status and any requests from Admissions. KAUST says submitted applications normally cannot be changed unless Admissions asks for more information.",
+  "officialLinks": [
+    {
+      "label": "KAUST application process",
+      "url": "https://admissions.kaust.edu.sa/how-to-apply/application-process"
+    },
+    {
+      "label": "KAUST admissions timeline",
+      "url": "https://admissions.kaust.edu.sa/how-to-apply/admission-timelines"
+    },
+    {
+      "label": "KAUST master's degree",
+      "url": "https://admissions.kaust.edu.sa/study/master's-degree"
+    },
+    {
+      "label": "KAUST programmes of study",
+      "url": "https://admissions.kaust.edu.sa/study"
+    }
+  ],
   "prompt": "Prepare my KAUST master's application for [exact programme]. Use only my verified education, electronics and engineering foundation, flight operations and maintenance, simulation-data operations, documented projects, and technical skills. First extract the programme's current requirements from official KAUST pages, then map my evidence to each requirement, identify gaps, and create a submission checklist. Keep the MS route separate from the standalone PhD route. Do not invent grades, research, publications, English waivers, funding, or deadlines."
 }
