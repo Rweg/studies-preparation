@@ -25,9 +25,11 @@ const openCount = document.querySelector("#openCount");
 const highFitCount = document.querySelector("#highFitCount");
 const deadlineCount = document.querySelector("#deadlineCount");
 const supportGrid = document.querySelector("#supportGrid");
+const kaustPathway = document.querySelector("#kaustPathway");
 
 let scholarships = [];
 let supportResources = [];
+let kaust = null;
 
 function deadlineDate(item) {
   const matches = item.deadline.match(/\b\d{1,2}\s+[A-Za-z]+\s+\d{4}\b/g) || [];
@@ -224,6 +226,48 @@ function supportCard(item) {
   `;
 }
 
+function renderKaustPathway() {
+  if (!kaustPathway || !kaust) return;
+  kaustPathway.innerHTML = `
+    <div class="pathway-status"><span class="badge open">${kaust.status}</span><span class="badge">${kaust.route}</span></div>
+    <p class="pathway-lede">${kaust.fit}</p>
+    <div class="pathway-grid">
+      <div>
+        <h3>Finish the application</h3>
+        ${list(kaust.nextSteps)}
+      </div>
+      <div>
+        <h3>Document pack</h3>
+        ${list(kaust.documents)}
+      </div>
+      <div>
+        <h3>Evidence to foreground</h3>
+        ${list(kaust.evidence)}
+      </div>
+      <div>
+        <h3>Funding and fees</h3>
+        ${list(kaust.funding)}
+        ${list(kaust.fees)}
+      </div>
+    </div>
+    <details>
+      <summary>English requirement</summary>
+      <p>${kaust.language}</p>
+    </details>
+    <div class="prompt-box">
+      <strong>Reusable KAUST planning prompt</strong>
+      <p>${kaust.prompt}</p>
+      <button class="button copy-prompt" type="button" data-prompt="${encodeURIComponent(kaust.prompt)}">Copy prompt</button>
+    </div>
+    <div class="card-actions">
+      <a class="button primary" href="https://apply.kaust.edu.sa/apply/?redirect=1" target="_blank" rel="noreferrer">Continue application</a>
+      <a class="button" href="https://admissions.kaust.edu.sa/fees-funding" target="_blank" rel="noreferrer">Fees & funding</a>
+      <a class="button" href="https://admissions.kaust.edu.sa/info-and-contact/faqs" target="_blank" rel="noreferrer">KAUST FAQs</a>
+      <a class="button" href="https://admissions.kaust.edu.sa/how-to-apply/entry-requirements" target="_blank" rel="noreferrer">Entry requirements</a>
+    </div>
+  `;
+}
+
 function renderCards() {
   const search = searchInput.value.toLowerCase().trim();
   const status = statusFilter.value;
@@ -306,11 +350,13 @@ async function init() {
   ]);
   scholarships = await scholarshipResponse.json();
   supportResources = await supportResponse.json();
+  kaust = await (await fetch("data/kaust-pathway.json")).json();
   renderStats();
   renderCards();
   renderChecklist();
   renderSources();
   renderSupportResources();
+  renderKaustPathway();
 }
 
 init();

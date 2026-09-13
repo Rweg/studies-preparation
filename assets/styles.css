@@ -199,6 +199,39 @@ main {
   margin-top: auto;
 }
 
+.pathway-panel {
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--line));
+}
+
+.pathway-status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.pathway-lede {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
+
+.pathway-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 18px 0;
+}
+
+.pathway-grid > div {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.pathway-grid h3 {
+  margin-top: 0;
+}
+
 .strategy-grid > div {
   padding: 18px;
   border: 1px solid var(--line);
@@ -440,6 +473,7 @@ footer {
   .scholarship-grid,
   .source-list,
   .support-grid,
+  .pathway-grid,
   .filters {
     grid-template-columns: 1fr;
   }

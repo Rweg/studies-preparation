@@ -1,0 +1,41 @@
+{
+  "status": "Application started",
+  "route": "Master's degree route",
+  "fit": "Engineering, intelligent systems, AI, data, and applied research directions",
+  "nextSteps": [
+    "Open the existing application and confirm the exact master's programme and intended research direction.",
+    "Before submitting, review every field carefully; KAUST says an application cannot normally be changed after submission unless Admissions requests more information.",
+    "Confirm three referees who have agreed to support you. KAUST sends reference requests when their details are entered and expects professional or academic email addresses.",
+    "Secure an accepted English test plan. KAUST says an application may be submitted without a score, but the required result must be provided before enrolment.",
+    "Submit only after the CV, statement of purpose, transcript, degree evidence, passport copy, referee details, and English-test status are accurate."
+  ],
+  "documents": [
+    "CV with education, relevant engineering and technical experience, projects, skills, and interests",
+    "Official university transcript showing grades, final result, and grading scale",
+    "Bachelor's degree certificate",
+    "Statement of purpose of approximately 750 words",
+    "Passport photo-and-details page",
+    "Contact details for three academic or professional referees",
+    "Official English test result, if already available, or a documented test plan"
+  ],
+  "evidence": [
+    "Electronics and engineering foundations, including early hands-on repair and project work",
+    "Flight operations, maintenance, troubleshooting, and reliability-focused problem solving",
+    "Simulation-data operations, data validation, post-processing, and technical handoffs",
+    "Relevant Python, SQL, APIs, computer-vision, systems, or cloud workflow evidence only where it is documented",
+    "A focused research question connecting engineering practice to a problem you want to investigate at master's level"
+  ],
+  "funding": [
+    "KAUST says admitted graduate students automatically receive the KAUST Fellowship unless covered by specified partnerships or external sponsorship.",
+    "The Fellowship includes full tuition and bench-fee coverage, accommodation, health insurance, and initial relocation support.",
+    "KAUST lists an M.S. stipend of USD 20,000 per year and estimates total Fellowship value at USD 70,000-80,000 per year depending on the student's situation.",
+    "The Fellowship is not a substitute for completing the admissions application and does not cover English-language examination costs."
+  ],
+  "fees": [
+    "KAUST's FAQ currently states that there is no cost to submit a graduate application.",
+    "KAUST says it cannot pay the English proficiency examination fee.",
+    "A valid official GRE or PGAT score is optional; KAUST says an eligible score uploaded at submission can receive an application fee waiver if a fee applies."
+  ],
+  "language": "KAUST requires official English evidence unless its specific exemption rules apply. The current entry-requirements page lists IELTS, TOEFL iBT, PTE Academic, and Cambridge options, and does not accept a Medium of Instruction certificate alone.",
+  "prompt": "Prepare my KAUST master's application for [exact programme]. Use only my verified education, electronics and engineering foundation, flight operations and maintenance, simulation-data operations, documented projects, and technical skills. First extract the programme's current requirements from official KAUST pages, then map my evidence to each requirement, identify gaps, and create a submission checklist. Keep the MS route separate from the standalone PhD route. Do not invent grades, research, publications, English waivers, funding, or deadlines."
+}
