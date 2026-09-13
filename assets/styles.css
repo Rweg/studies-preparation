@@ -96,6 +96,24 @@ main {
   color: white;
 }
 
+.prompt-box {
+  margin-top: 14px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--accent) 6%, var(--panel));
+}
+
+.prompt-box p {
+  font-size: 0.9rem;
+}
+
+.copy-prompt {
+  min-height: 36px;
+  padding: 0 12px;
+  font-size: 0.86rem;
+}
+
 .summary-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -258,6 +276,11 @@ select {
 
 .badge.closed {
   background: color-mix(in srgb, var(--red) 12%, transparent);
+  color: var(--red);
+}
+
+.badge.expired {
+  background: color-mix(in srgb, var(--red) 14%, transparent);
   color: var(--red);
 }
 

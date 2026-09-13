@@ -24,7 +24,7 @@
       <section class="summary-grid" aria-label="Scholarship summary">
         <article>
           <span id="openCount">0</span>
-          <p>open or conditional</p>
+          <p>open now after deadline check</p>
         </article>
         <article>
           <span id="highFitCount">0</span>
@@ -69,10 +69,11 @@
             <input id="searchInput" type="search" placeholder="Search scholarship, country, field...">
             <select id="statusFilter" aria-label="Filter by status">
               <option value="all">All statuses</option>
-              <option value="open">Open / urgent / conditional</option>
+              <option value="open" selected>Open now</option>
               <option value="prepare">Opening soon</option>
               <option value="monitor">Monitor</option>
               <option value="conflict">Source conflict</option>
+              <option value="expired">Deadline passed</option>
               <option value="closed">Closed</option>
             </select>
             <select id="fitFilter" aria-label="Filter by fit">
@@ -110,7 +111,7 @@
     </main>
 
     <footer>
-      <p>Last research build: 2 September 2026. Verify each official page before submitting.</p>
+      <p>Last research build: 13 September 2026. Verify each official page before submitting.</p>
     </footer>
 
     <script src="assets/app.js"></script>
