@@ -24,8 +24,10 @@ const sourceList = document.querySelector("#sourceList");
 const openCount = document.querySelector("#openCount");
 const highFitCount = document.querySelector("#highFitCount");
 const deadlineCount = document.querySelector("#deadlineCount");
+const supportGrid = document.querySelector("#supportGrid");
 
 let scholarships = [];
+let supportResources = [];
 
 function deadlineDate(item) {
   const matches = item.deadline.match(/\b\d{1,2}\s+[A-Za-z]+\s+\d{4}\b/g) || [];
@@ -209,6 +211,19 @@ function card(item) {
   `;
 }
 
+function supportCard(item) {
+  return `
+    <article class="support-card">
+      <div class="badge-row"><span class="badge conditional">${item.status}</span><span class="badge">${item.type}</span></div>
+      <h3>${item.name}</h3>
+      <p>${item.coverage}</p>
+      <p><strong>Fee position:</strong> ${item.feePosition}</p>
+      <p><strong>Next action:</strong> ${item.action}</p>
+      <a class="button" href="${item.url}" target="_blank" rel="noreferrer">Open official source</a>
+    </article>
+  `;
+}
+
 function renderCards() {
   const search = searchInput.value.toLowerCase().trim();
   const status = statusFilter.value;
@@ -252,6 +267,10 @@ function renderSources() {
   `).join("");
 }
 
+function renderSupportResources() {
+  supportGrid.innerHTML = supportResources.map(supportCard).join("");
+}
+
 document.addEventListener("input", (event) => {
   if (event.target === searchInput || event.target === statusFilter || event.target === fitFilter) {
     renderCards();
@@ -281,12 +300,17 @@ document.addEventListener("click", async (event) => {
 });
 
 async function init() {
-  const response = await fetch("data/scholarships.json");
-  scholarships = await response.json();
+  const [scholarshipResponse, supportResponse] = await Promise.all([
+    fetch("data/scholarships.json"),
+    fetch("data/support-resources.json")
+  ]);
+  scholarships = await scholarshipResponse.json();
+  supportResources = await supportResponse.json();
   renderStats();
   renderCards();
   renderChecklist();
   renderSources();
+  renderSupportResources();
 }
 
 init();

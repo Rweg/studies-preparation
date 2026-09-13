@@ -1398,7 +1398,7 @@
     "priority": "Prepare now",
     "fit": "High",
     "country": "Saudi Arabia",
-    "degree": "MS and PhD",
+    "degree": "MS / MS-PhD pathway; PhD requires a relevant master's degree",
     "fields": "Science and engineering fields at KAUST",
     "deadline": "28 September 2026 to 3 January 2027 for Fall 2027 MS/MS-PhD/PhD admission; Spring 2027 PhD Round 1 closes 27 September 2026",
     "opens": "28 September 2026 for Fall 2027 MS, MS/PhD and PhD admission",
@@ -1411,9 +1411,10 @@
     ],
     "portal": "https://apply.kaust.edu.sa/apply/?redirect=1",
     "official": "https://admissions.kaust.edu.sa/how-to-apply/admission-timelines",
-    "sourceNote": "The official KAUST admissions timeline says Spring 2027 is PhD-only with a 27 September 2026 Round 1 deadline; Fall 2027 MS, MS/PhD and PhD applications open 28 September 2026 and close 3 January 2027. KAUST describes the fellowship benefits on its admissions page.",
+    "sourceNote": "The official KAUST admissions timeline says Spring 2027 is PhD-only with a 27 September 2026 Round 1 deadline; Fall 2027 MS, MS/PhD and PhD applications open 28 September 2026 and close 3 January 2027. KAUST's entry requirements specify a relevant bachelor's degree for MS and a relevant master's degree for PhD. The integrated MS/PhD pathway can begin after a bachelor's degree in selected disciplines.",
     "prerequisites": [
-      "Bachelor's degree for MS admission.",
+      "Relevant bachelor's degree for MS admission.",
+      "Relevant master's degree for the standalone PhD route; this is not required for the MS or selected MS/PhD route.",
       "Strong STEM academic background and research fit.",
       "Statement of purpose, CV, transcripts, and recommendations.",
       "English test requirement unless exempt under KAUST rules."

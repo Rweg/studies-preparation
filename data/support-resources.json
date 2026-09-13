@@ -1,0 +1,110 @@
+[
+  {
+    "name": "EducationUSA Advising Center - Kigali",
+    "type": "Application advising and test preparation",
+    "status": "Available",
+    "coverage": "U.S. university, scholarship, fee, testing, and visa guidance; test-preparation materials and computer/internet access.",
+    "feePosition": "Advising is free; a cash grant for testing or applications is not guaranteed.",
+    "action": "Book an advising appointment before building a U.S. application list.",
+    "url": "https://educationusa.state.gov/centers/educationusa-advising-center-kigali"
+  },
+  {
+    "name": "Duolingo English Test Access Program",
+    "type": "English-test fee waiver",
+    "status": "Conditional",
+    "coverage": "Formal test-fee waivers and preparation support for students facing financial barriers through institutions or approved organisations.",
+    "feePosition": "Not a universal individual coupon; a university, adviser, or recognised organisation must request or distribute access.",
+    "action": "Ask each target university whether it accepts DET and can sponsor an Access request.",
+    "url": "https://blog.englishtest.duolingo.com/duolingo-access-program/"
+  },
+  {
+    "name": "edX Financial Assistance",
+    "type": "Online course fee assistance",
+    "status": "Available for eligible courses",
+    "coverage": "Current help guidance confirms an 80% reduction on eligible verified-track certificate fees for learners experiencing economic hardship.",
+    "feePosition": "Not available for Professional Education courses and selected MicroMasters.",
+    "action": "Open the target course and check whether the financial-assistance option is shown.",
+    "url": "https://support.edx.org/hc/en-us/articles/206501618-Does-edX-offer-financial-assistance-for-verified-certificates"
+  },
+  {
+    "name": "Linux Foundation LiFT Scholarship",
+    "type": "Cloud-native training and certification",
+    "status": "Annual competition",
+    "coverage": "Selected recipients can receive training courses and certification exams at no cost.",
+    "feePosition": "2027 applications open in April according to the current official page.",
+    "action": "Prepare a short impact statement and apply when the next window opens.",
+    "url": "https://training.linuxfoundation.org/about/scholarships/"
+  },
+  {
+    "name": "AWS re/Start",
+    "type": "Cloud workforce preparation",
+    "status": "Cohort-dependent",
+    "coverage": "Free learner training, hands-on labs, professional skills, interview coaching, and complimentary certification preparation/exams for selected cohorts.",
+    "feePosition": "Availability and benefits depend on the local collaborating organisation.",
+    "action": "Check the country directory for a current Rwanda or regional partner.",
+    "url": "https://aws.amazon.com/training/restart/"
+  },
+  {
+    "name": "AWS Skill Builder",
+    "type": "Free cloud and AI preparation",
+    "status": "Available",
+    "coverage": "900+ free self-paced digital courses and free digital badges across AWS cloud, AI, and data topics.",
+    "feePosition": "Certification exams and advanced subscription content are separate; no universal exam waiver.",
+    "action": "Create a personal AWS Builder ID and follow the Data Analytics or Machine Learning pathway.",
+    "url": "https://aws.amazon.com/training/digital/"
+  },
+  {
+    "name": "Google Cloud Career Launchpad voucher route",
+    "type": "Cloud certification voucher",
+    "status": "Cohort-dependent",
+    "coverage": "An Associate Cloud Engineer voucher may be available after completing an eligible cohort certificate and required skill badges.",
+    "feePosition": "Not an open general voucher; cohort participation is required.",
+    "action": "Look for a current Rwanda or Sub-Saharan Africa cohort before planning around the voucher.",
+    "url": "https://support.google.com/google-cloud-higher-ed/answer/10321467"
+  },
+  {
+    "name": "Microsoft Learn",
+    "type": "Free technical preparation",
+    "status": "Available",
+    "coverage": "Free role-based training, documentation, hands-on modules, and learning paths for Azure, data, AI, and systems.",
+    "feePosition": "Certification exams are separate unless a specific event or partner provides a voucher.",
+    "action": "Build a personal learning collection around Azure data, AI, and DevOps.",
+    "url": "https://learn.microsoft.com/en-us/training/support/faq"
+  },
+  {
+    "name": "IBM SkillsBuild",
+    "type": "Free AI, data and cloud preparation",
+    "status": "Available",
+    "coverage": "More than 1,000 free courses and shareable digital credentials in AI, data analytics, cloud, cybersecurity, and technical support.",
+    "feePosition": "The source confirms free learning and credentials, not payment of external professional exams.",
+    "action": "Start with Data Fundamentals, Machine Learning for Data Science Projects, or AI Fundamentals.",
+    "url": "https://skillsbuild.org/about"
+  },
+  {
+    "name": "Kaggle Learn",
+    "type": "Free data and machine-learning preparation",
+    "status": "Available",
+    "coverage": "Free short courses in Python, SQL, pandas, machine learning, and computer vision with completion certificates.",
+    "feePosition": "No separate paid certification exam is required for the course certificates.",
+    "action": "Complete a course and publish a small personal notebook or project.",
+    "url": "https://www.kaggle.com/learn"
+  },
+  {
+    "name": "British Council Rwanda IELTS preparation",
+    "type": "English-test preparation",
+    "status": "Available",
+    "coverage": "Free official preparation resources; IELTS Ready Premium is included when an IELTS test is booked.",
+    "feePosition": "The Rwanda page lists IELTS Academic/General at RWF 364,000 and UKVI at RWF 400,000; no general hardship waiver is shown.",
+    "action": "Confirm each university's accepted test and waiver rules before booking.",
+    "url": "https://www.britishcouncil.rw/exam/ielts/book-test"
+  },
+  {
+    "name": "Databricks Free Edition",
+    "type": "Free data-platform practice",
+    "status": "Available",
+    "coverage": "No-cost personal platform for learning and experimenting with data and AI.",
+    "feePosition": "Certification exams are paid; official vouchers are tied to events, partners, or pre-purchased credits.",
+    "action": "Use only personal or public data and build a small documented data pipeline.",
+    "url": "https://docs.databricks.com/aws/en/getting-started/free-trial-vs-free-edition"
+  }
+]

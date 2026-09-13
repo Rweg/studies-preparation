@@ -169,10 +169,34 @@ main {
 
 .strategy-grid,
 .scholarship-grid,
-.source-list {
+.source-list,
+.support-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
+}
+
+.support-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.support-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.support-card h3,
+.support-card p {
+  margin: 0;
+}
+
+.support-card .button {
+  align-self: start;
+  margin-top: auto;
 }
 
 .strategy-grid > div {
@@ -415,6 +439,7 @@ footer {
   .strategy-grid,
   .scholarship-grid,
   .source-list,
+  .support-grid,
   .filters {
     grid-template-columns: 1fr;
   }
