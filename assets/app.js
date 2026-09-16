@@ -30,27 +30,40 @@ const kaustPathway = document.querySelector("#kaustPathway");
 let scholarships = [];
 let supportResources = [];
 let kaust = null;
+const RESEARCH_DATE = new Date("2026-09-16T12:00:00+02:00");
 
 function deadlineDate(item) {
-  const matches = item.deadline.match(/\b\d{1,2}\s+[A-Za-z]+\s+\d{4}\b/g) || [];
-  const dates = matches.map((value) => new Date(value)).filter((date) => !Number.isNaN(date.getTime()));
+  const text = String(item.deadline || "");
+  const iso = text.match(/\b\d{4}-\d{2}-\d{2}\b/);
+  const matches = text.match(/\b\d{1,2}\s+[A-Za-z]+\s+\d{4}\b/g) || [];
+  const dates = [iso ? new Date(`${iso[0]}T23:59:59+02:00`) : null, ...matches.map((value) => new Date(value))]
+    .filter((date) => date && !Number.isNaN(date.getTime()));
   return dates[0] || null;
 }
 
+function normalizedStatus(item) {
+  const status = String(item.status || "").toLowerCase();
+  if (status.includes("source conflict")) return "source_conflict";
+  if (status.includes("monitor") || status.includes("watch")) return "monitor";
+  if (status.includes("opening soon")) return "opening_soon";
+  if (status.includes("open now") || status.includes("open")) return "open";
+  return "closed";
+}
+
 function isCurrentlyOpen(item) {
-  if (!item.status.includes("Open")) return false;
+  if (normalizedStatus(item) !== "open") return false;
   const deadline = deadlineDate(item);
-  return !deadline || deadline >= new Date();
+  return !deadline || deadline >= RESEARCH_DATE;
 }
 
 function effectiveStatus(item) {
-  if (item.status.includes("Closed")) return "closed";
-  if (item.status === "Source conflict") return "conflict";
-  if (item.status === "Monitor") return "monitor";
+  const status = normalizedStatus(item);
+  if (status === "closed") return "closed";
+  if (status === "source_conflict") return "conflict";
+  if (status === "monitor") return "monitor";
+  if (status === "opening_soon") return "prepare";
   if (isCurrentlyOpen(item)) return "open";
-  if (item.status.includes("Opening")) return "prepare";
-  if (item.status.includes("Open")) return "expired";
-  return "closed";
+  return "expired";
 }
 
 function statusClass(status) {
@@ -209,6 +222,7 @@ function card(item) {
         <p><strong>English:</strong> ${item.english}</p>
       </details>
       <p class="source-note">${item.sourceNote}</p>
+      <p class="source-note"><strong>Research verified:</strong> ${item.lastVerified || "16 September 2026"}</p>
     </article>
   `;
 }

@@ -106,5 +106,14 @@
     "feePosition": "Certification exams are paid; official vouchers are tied to events, partners, or pre-purchased credits.",
     "action": "Use only personal or public data and build a small documented data pipeline.",
     "url": "https://docs.databricks.com/aws/en/getting-started/free-trial-vs-free-edition"
+  },
+  {
+    "name": "HEC Rwanda scholarship notices and HEC-MIS",
+    "type": "Rwanda scholarship and funding lead",
+    "status": "Available for current notices; call-specific",
+    "coverage": "HEC's official updates page is the current source for Rwanda-relevant scholarship notices, while HEC-MIS is the portal to check when a call is open.",
+    "feePosition": "Call-specific. Do not assume a scholarship, study loan, test fee, or application fee is covered until the official notice says so.",
+    "action": "Check the HEC updates page and HEC-MIS weekly; record the exact opening date, deadline, eligibility, and required documents for each notice.",
+    "url": "https://www.hec.gov.rw/updates/scholarships"
   }
 ]
