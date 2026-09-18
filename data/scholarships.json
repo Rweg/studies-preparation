@@ -53,14 +53,15 @@
       "degreeApplication": "varies by UK university/course",
       "feeWaiver": "university-specific",
       "notes": "Chevening covers the award if selected, but course application fees before selection depend on each university. Chevening visa guidance says scholars do not need to pay the visa fee or Immigration Health Surcharge when following Chevening visa instructions."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "commonwealth-masters",
     "name": "Commonwealth Master's Scholarships",
     "sponsor": "Commonwealth Scholarship Commission / FCDO",
-    "status": "Opening soon",
-    "priority": "Prepare now",
+    "status": "Open now",
+    "priority": "Apply / verify nomination route",
     "fit": "High",
     "country": "United Kingdom",
     "degree": "Master's",
@@ -76,7 +77,7 @@
     ],
     "portal": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
     "official": "https://study-uk.britishcouncil.org/scholarships-funding/commonwealth-scholarships",
-    "sourceNote": "The official Commonwealth Scholarship Commission page says 2027/28 applications open on 8 September 2026 and close at 16:00 BST on 20 October 2026.",
+    "sourceNote": "Official Commonwealth Scholarship Commission timeline says the 2027/28 application window opened 8 September 2026 and closes 20 October 2026 at 16:00 BST. Confirm Rwanda nomination instructions with HEC before submitting.",
     "prerequisites": [
       "Citizen of or refugee/person protected by an eligible Commonwealth country.",
       "Rwanda participates through national nomination routes; check HEC Rwanda instructions when issued.",
@@ -107,7 +108,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "ares-belgium",
@@ -162,7 +164,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "daad-epos",
@@ -217,7 +220,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "rhodes-global",
@@ -271,7 +275,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "knight-hennessy",
@@ -325,7 +330,8 @@
       "degreeApplication": "Stanford Graduate Admissions lists a USD 125 nonrefundable application fee; programme-specific fees may vary.",
       "feeWaiver": "KHS does not provide degree-application fee waivers; Stanford Graduate Admissions/schools may offer waiver routes if eligible.",
       "notes": "You must submit both the KHS application and the Stanford graduate programme application."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "erasmus-mundus",
@@ -379,7 +385,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "gates-cambridge",
@@ -432,7 +439,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "clarendon",
@@ -482,7 +490,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "weidenfeld",
@@ -534,7 +543,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "eiffel",
@@ -586,7 +596,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "mext-rwanda",
@@ -638,7 +649,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "gks-rwanda",
@@ -694,7 +706,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "turkiye",
@@ -750,7 +763,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "vlir-uos",
@@ -803,7 +817,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "si-global",
@@ -856,7 +871,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "ireland-fellows",
@@ -909,7 +925,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "mccall-macbain-mcgill",
@@ -961,7 +978,8 @@
       "degreeApplication": "McGill graduate application fee listed by McGill as CAD 143.82 for Summer 2027 graduate applications; amount may vary by term/programme.",
       "feeWaiver": "unspecified for McGill graduate application; McCall MacBain FAQ says the McGill programme application fee is not covered by the scholarship.",
       "notes": "Budget for McGill application fees even if the scholarship itself is fully funded."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "daad-epos-rem-th-koeln",
@@ -1015,7 +1033,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "daad-epos-nrm-th-koeln",
@@ -1069,7 +1088,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "daad-epos-mide-htw",
@@ -1124,14 +1144,15 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "sydney-rtp-international",
     "name": "University of Sydney RTP / Equivalent International Research Scholarships",
     "sponsor": "University of Sydney / Australian Government RTP",
-    "status": "Open now",
-    "priority": "Prepare and apply",
+    "status": "Closed - deadline passed",
+    "priority": "Do not apply for this round",
     "fit": "Conditional",
     "country": "Australia",
     "degree": "Master's by research / higher degree by research",
@@ -1146,7 +1167,7 @@
     ],
     "portal": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
     "official": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program.html",
-    "sourceNote": "Official University of Sydney RTP international page lists 11 September 2026 deadline and AUD 44,293 p.a. stipend for 2027.",
+    "sourceNote": "Official University of Sydney RTP international page lists 11 September 2026 deadline and AUD 44,293 p.a. stipend for 2027. The published deadline had passed by 18 September 2026; keep this record for next-cycle planning only.",
     "prerequisites": [
       "Apply for or be enrolled in an eligible higher degree by research.",
       "Strong research proposal and supervisor/faculty fit.",
@@ -1177,7 +1198,8 @@
       "degreeApplication": "unspecified for HDR route in current tracker; verify in Sydney HDR application before submitting",
       "feeWaiver": "unspecified",
       "notes": "Do not assume the general international application fee applies to HDR without checking the current HDR application page."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "anu-rtp-research",
@@ -1229,7 +1251,8 @@
       "degreeApplication": "unspecified in current tracker",
       "feeWaiver": "unspecified",
       "notes": "Verify any HDR admission/application fee before submission."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "griffith-research-scholarships",
@@ -1283,7 +1306,8 @@
       "degreeApplication": "unspecified in current tracker",
       "feeWaiver": "unspecified",
       "notes": "Verify any HDR admission/application fee before submission."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "melbourne-graduate-research",
@@ -1336,7 +1360,8 @@
       "degreeApplication": "unspecified in current tracker",
       "feeWaiver": "unspecified",
       "notes": "Verify graduate research application fees in the current Melbourne application system."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "melbourne-human-rights",
@@ -1388,7 +1413,8 @@
       "degreeApplication": "unspecified in current tracker",
       "feeWaiver": "unspecified",
       "notes": "Verify graduate research application fees and scholarship form requirements before applying."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "kaust-fellowship",
@@ -1444,7 +1470,8 @@
       "degreeApplication": "No cost to submit a KAUST graduate application according to KAUST Admissions FAQ.",
       "feeWaiver": "not needed for KAUST application fee if the current no-cost rule remains active",
       "notes": "Confirm fee status in the KAUST application portal before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "kaist-spring-2027",
@@ -1495,7 +1522,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "gist-spring-2027",
@@ -1548,7 +1576,8 @@
       "degreeApplication": "mandatory application fee reported in the current audit; exact current amount requires admissions-guide verification",
       "feeWaiver": "matriculation-fee exemption may apply for some students; verify current GIST guide",
       "notes": "Official GIST pages state a non-refundable KRW 680,000 matriculation fee is charged at enrollment, with possible exemptions."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "mastercard-cambridge",
@@ -1602,7 +1631,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "mastercard-ubc",
@@ -1658,7 +1688,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "yenching-academy",
@@ -1713,7 +1744,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "eac-scholarship-phase-ii",
@@ -1768,7 +1800,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "mastercard-mcgill",
@@ -1820,14 +1853,15 @@
       "degreeApplication": "McGill graduate application fee listed by McGill as CAD 143.82 for Summer 2027 graduate applications; amount may vary by term/programme.",
       "feeWaiver": "unspecified",
       "notes": "Confirm whether the partner programme covers or reimburses any admission fee in the invited application instructions."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "afdb-jads-apu",
     "name": "AfDB-Japan Africa Dream Scholarship - APU route",
     "sponsor": "African Development Bank / Government of Japan / Ritsumeikan Asia Pacific University",
-    "status": "Open now",
-    "priority": "Prepare and apply",
+    "status": "Closed - deadline passed",
+    "priority": "Do not apply for this round",
     "fit": "Medium",
     "country": "Japan",
     "degree": "Master's at participating Japanese institution",
@@ -1841,7 +1875,7 @@
     ],
     "portal": "https://admissions.apu.ac.jp/graduate/how_to_apply/external_scholarship/AfDB_JADS/",
     "official": "https://www.afdb.org/en/about-us/careers/japan-africa-dream-scholarship-jads-program",
-    "sourceNote": "APU official external scholarship page says AfDB-JADS accepts applications for April and September 2027 enrollment, with April 2027 APU deadline 15 September 2026.",
+    "sourceNote": "APU official external scholarship page says AfDB-JADS accepts applications for April and September 2027 enrollment, with April 2027 APU deadline 15 September 2026. The published deadline had passed by 18 September 2026; keep this record for next-cycle planning only.",
     "prerequisites": [
       "Citizen of an AfDB member country and applicant to an approved programme route.",
       "Professional and academic background aligned with JADS development priorities.",
@@ -1873,7 +1907,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "mandela-rhodes",
@@ -1928,7 +1963,8 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
   },
   {
     "id": "aims-rwanda-stale",
@@ -1976,6 +2012,115 @@
       "degreeApplication": "unspecified",
       "feeWaiver": "unspecified",
       "notes": "Application fees can differ between scholarship, university admission, and programme-specific applications. Verify before submitting."
-    }
+    },
+    "lastVerified": "18 September 2026"
+  },
+  {
+    "sponsor": "Higher Education Council Rwanda",
+    "status": "Monitor",
+    "priority": "Check official notice",
+    "fit": "Medium",
+    "country": "Rwanda / programme destination varies",
+    "fields": "Programme-specific; verify whether a relevant master's route is available",
+    "funding": [
+      "Call-specific; do not infer full funding until the official notice confirms it"
+    ],
+    "prerequisites": [
+      "Rwandan eligibility and programme-specific criteria must be confirmed in the official notice",
+      "Confirm whether the call is for master's-level study, another level, or a partner route"
+    ],
+    "documents": [
+      "Current CV",
+      "Degree certificate and transcript",
+      "Passport or national ID where required",
+      "Call-specific forms and references",
+      "The current JICA/HEC call PDF and any partner forms"
+    ],
+    "age": "Call-specific",
+    "english": "Programme-specific; confirm the university and scholarship language rules",
+    "languageProficiency": {
+      "summary": "Programme-specific",
+      "tests": "Confirm in the official notice and destination programme",
+      "minimums": "Unspecified in the public listing",
+      "waiver": "Unspecified",
+      "notes": "Do not assume an English-medium degree waives a test.",
+      "prepare": "Keep a Medium of Instruction letter and a test plan ready."
+    },
+    "fees": {
+      "scholarshipApplication": "Unspecified",
+      "degreeApplication": "Programme-specific",
+      "feeWaiver": "Unspecified",
+      "notes": "Confirm costs and payment instructions from the official call; never pay an intermediary."
+    },
+    "lastVerified": "18 September 2026",
+    "sourceType": "Official HEC notice index; call details require PDF review",
+    "intentFilters": [
+      "local-rwanda",
+      "regional-africa",
+      "public-sector",
+      "stretch"
+    ],
+    "id": "hec-jica-rwanda-scholarship-2026",
+    "name": "JICA–Rwanda Government Scholarships (HEC notice)",
+    "degree": "Programme-specific; master's level to be confirmed",
+    "deadline": "Check the official HEC notice",
+    "opens": "9 September 2026",
+    "portal": "https://www.hec.gov.rw/updates/scholarships",
+    "official": "https://www.hec.gov.rw/fileadmin/user_upload/HEC/Scholarships/JICA-RWANDA_GOVERNMENT_SCHOLRSHIPS.pdf",
+    "sourceNote": "HEC listed a new JICA–Rwanda Government Scholarships notice on 9 September 2026. The PDF requires direct review for degree level, eligibility, deadline, funding, and application route; keep as a monitor lead until confirmed."
+  },
+  {
+    "sponsor": "Higher Education Council Rwanda",
+    "status": "Monitor",
+    "priority": "Check official notice",
+    "fit": "Medium",
+    "country": "Rwanda / programme destination varies",
+    "fields": "Programme-specific; verify whether a relevant master's route is available",
+    "funding": [
+      "Call-specific; do not infer full funding until the official notice confirms it"
+    ],
+    "prerequisites": [
+      "Rwandan eligibility and programme-specific criteria must be confirmed in the official notice",
+      "Confirm whether the call is for master's-level study, another level, or a partner route"
+    ],
+    "documents": [
+      "Current CV",
+      "Degree certificate and transcript",
+      "Passport or national ID where required",
+      "Call-specific forms and references",
+      "The Kent State/HEC call PDF and any university application materials"
+    ],
+    "age": "Call-specific",
+    "english": "Programme-specific; confirm the university and scholarship language rules",
+    "languageProficiency": {
+      "summary": "Programme-specific",
+      "tests": "Confirm in the official notice and destination programme",
+      "minimums": "Unspecified in the public listing",
+      "waiver": "Unspecified",
+      "notes": "Do not assume an English-medium degree waives a test.",
+      "prepare": "Keep a Medium of Instruction letter and a test plan ready."
+    },
+    "fees": {
+      "scholarshipApplication": "Unspecified",
+      "degreeApplication": "Programme-specific",
+      "feeWaiver": "Unspecified",
+      "notes": "Confirm costs and payment instructions from the official call; never pay an intermediary."
+    },
+    "lastVerified": "18 September 2026",
+    "sourceType": "Official HEC notice index; call details require PDF review",
+    "intentFilters": [
+      "local-rwanda",
+      "regional-africa",
+      "public-sector",
+      "stretch"
+    ],
+    "id": "hec-kent-state-september-2026",
+    "name": "Kent State University call through HEC - September 2026",
+    "degree": "Programme-specific; confirm master's route",
+    "deadline": "Check the official HEC notice",
+    "opens": "2 September 2026",
+    "portal": "https://www.hec.gov.rw/updates/scholarships",
+    "official": "https://www.hec.gov.rw/fileadmin/user_upload/HEC/Scholarships/Call__for__Application_Kent_State_University_September_2026.pdf",
+    "sourceNote": "HEC listed a Kent State University call on 2 September 2026. The official PDF must be reviewed for whether the opportunity is a scholarship, admission route, or partnership and for the current deadline and funding terms."
   }
 ]

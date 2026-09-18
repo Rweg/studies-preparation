@@ -30,13 +30,21 @@ const kaustPathway = document.querySelector("#kaustPathway");
 let scholarships = [];
 let supportResources = [];
 let kaust = null;
-const RESEARCH_DATE = new Date("2026-09-16T12:00:00+02:00");
+const RESEARCH_DATE = new Date("2026-09-18T12:00:00+02:00");
 
 function deadlineDate(item) {
   const text = String(item.deadline || "");
   const iso = text.match(/\b\d{4}-\d{2}-\d{2}\b/);
   const matches = text.match(/\b\d{1,2}\s+[A-Za-z]+\s+\d{4}\b/g) || [];
-  const dates = [iso ? new Date(`${iso[0]}T23:59:59+02:00`) : null, ...matches.map((value) => new Date(value))]
+  const time = text.match(/\b(\d{1,2}):(\d{2})\b/);
+  const parseTextDate = (value) => {
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return null;
+    if (time) date.setHours(Number(time[1]), Number(time[2]), 0, 0);
+    else date.setHours(23, 59, 59, 999);
+    return date;
+  };
+  const dates = [iso ? new Date(`${iso[0]}T23:59:59+02:00`) : null, ...matches.map(parseTextDate)]
     .filter((date) => date && !Number.isNaN(date.getTime()));
   return dates[0] || null;
 }
@@ -222,7 +230,7 @@ function card(item) {
         <p><strong>English:</strong> ${item.english}</p>
       </details>
       <p class="source-note">${item.sourceNote}</p>
-      <p class="source-note"><strong>Research verified:</strong> ${item.lastVerified || "16 September 2026"}</p>
+      <p class="source-note"><strong>Research verified:</strong> ${item.lastVerified || "18 September 2026"}</p>
     </article>
   `;
 }
